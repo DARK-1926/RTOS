@@ -1,0 +1,4 @@
+done 510/3000 K=0 theta=-1.9174
+done 1009/3000 K=1 theta=-4.1479ddone 1507/3000 K=0 theta=-6.418dodone 2015/3000 K=-1 theta=-8.6donedone 2500/3000 K=-1 theta=-10done 3done 3000/3000 K=2 theta=-12.6624
+rc=0
+rc=0

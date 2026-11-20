@@ -1,0 +1,3 @@
+done 509/2000 K=1 theta=-1.3727ddone 1014/2000 K=1 theta=-3.560dodone 1509/2000 K=3 theta=-5.8227ddone 2001/2000 K=-1 theta=-7.6267
+0
+rc=0

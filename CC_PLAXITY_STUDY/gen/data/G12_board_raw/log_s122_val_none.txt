@@ -1,0 +1,5 @@
+done 501/2000 K=3 theta=0.3590
+done 1001/2000 K=0 theta=0.3390
+done 1501/2000 K=-1 theta=0.3390
+done 2000/2000 K=0 theta=0.4085
+rc=0

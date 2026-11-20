@@ -1,0 +1,22 @@
+cal 121 done Mon Nov  2 10:21:50 PM UTC 2026
+random p = 0.8514
+val 121 done Mon Nov  2 10:37:20 PM UTC 2026
+cal 122 done Mon Nov  2 10:38:37 PM UTC 2026
+cal 122 done Mon Nov  2 10:38:48 PM UTC 2026
+random p = 1.0000
+random p = 1.0000
+val 122 done Mon Nov  2 10:41:57 PM UTC 2026
+val 122 done Mon Nov  2 10:42:00 PM UTC 2026
+cal 122 done Mon Nov  2 10:48:21 PM UTC 2026
+random p = 0.8547
+resume after reboot: random p = 0.8547 (from the kp run)
+val 122 done (resumed) Mon Nov  2 11:07:00 PM UTC 2026
+cal 123 done Mon Nov  2 11:08:16 PM UTC 2026
+cal 123 done Mon Nov  2 11:08:18 PM UTC 2026
+random p = 1.0000
+random p = 1.0000
+val 123 done Mon Nov  2 11:11:29 PM UTC 2026
+val 123 done Mon Nov  2 11:11:31 PM UTC 2026
+cal 123 done Mon Nov  2 11:17:46 PM UTC 2026
+random p = 0.8106
+val 123 done Mon Nov  2 11:32:30 PM UTC 2026

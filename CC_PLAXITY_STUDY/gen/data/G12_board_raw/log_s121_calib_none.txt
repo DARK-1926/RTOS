@@ -1,0 +1,7 @@
+done 501/3000 K=0 theta=0.5381
+done 1001/3000 K=-1 theta=0.6481
+done 1501/3000 K=-1 theta=0.7181
+done 2000/3000 K=0 theta=0.7976
+done 2500/3000 K=-1 theta=0.8676
+done 3000/3000 K=2 theta=0.8776
+rc=0
