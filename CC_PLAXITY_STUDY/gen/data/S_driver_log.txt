@@ -1,0 +1,65 @@
+launch stress 261 Thu Nov 19 17:51:48 IST 2026
+stress 261 done Thu Nov 19 17:59:06 IST 2026
+launch stress 262 Thu Nov 19 17:59:06 IST 2026
+stress 262 done Thu Nov 19 18:06:23 IST 2026
+launch stress 263 Thu Nov 19 18:06:23 IST 2026
+stress 263 done Thu Nov 19 18:13:39 IST 2026
+phase cal of seed 261 not running and not done: (re)launching Thu Nov 19 18:13:40 IST 2026
+seed 261 heavy params: q=0.85 D=27.0 theta0=0.3114 ME2E_D=13.5214 ratio=0.5724 n_cal=2690 Thu Nov 19 18:21:37 IST 2026
+seed 261 light params: q=m1.6 D=43.0 theta0=1.0000 ME2E_D=13.5214 ratio=0.5724 n_cal=2690 Thu Nov 19 18:21:47 IST 2026
+phase val of seed 261 not running and not done: (re)launching Thu Nov 19 18:21:48 IST 2026
+seed 261 val heavy done Thu Nov 19 18:49:43 IST 2026
+phase val of seed 261 not running and not done: (re)launching Thu Nov 19 18:49:43 IST 2026
+seed 261 val light done Thu Nov 19 19:17:38 IST 2026
+phase cal of seed 262 not running and not done: (re)launching Thu Nov 19 19:17:39 IST 2026
+seed 262 heavy params: q=0.85 D=27.0 theta0=0.3265 ME2E_D=13.2343 ratio=0.5649 n_cal=2619 Thu Nov 19 19:25:29 IST 2026
+seed 262 light params: q=m1.6 D=44.0 theta0=1.0000 ME2E_D=13.2343 ratio=0.5649 n_cal=2619 Thu Nov 19 19:25:35 IST 2026
+phase val of seed 262 not running and not done: (re)launching Thu Nov 19 19:25:35 IST 2026
+seed 262 val heavy done Thu Nov 19 19:53:29 IST 2026
+phase val of seed 262 not running and not done: (re)launching Thu Nov 19 19:53:30 IST 2026
+seed 262 val light done Thu Nov 19 20:21:24 IST 2026
+phase cal of seed 263 not running and not done: (re)launching Thu Nov 19 20:21:25 IST 2026
+seed 263 heavy params: q=0.85 D=27.0 theta0=0.3437 ME2E_D=12.8010 ratio=0.5491 n_cal=2753 Thu Nov 19 20:29:15 IST 2026
+seed 263 light params: q=m1.6 D=43.0 theta0=1.0000 ME2E_D=12.8010 ratio=0.5491 n_cal=2753 Thu Nov 19 20:29:22 IST 2026
+phase val of seed 263 not running and not done: (re)launching Thu Nov 19 20:29:22 IST 2026
+seed 263 val heavy done Thu Nov 19 20:57:17 IST 2026
+phase val of seed 263 not running and not done: (re)launching Thu Nov 19 20:57:17 IST 2026
+seed 263 val light done Thu Nov 19 21:25:11 IST 2026
+phase cal of seed 264 not running and not done: (re)launching Thu Nov 19 21:25:12 IST 2026
+EXPORT FAILED 264 heavy
+EXPORT FAILED 264 heavy
+=== restart Thu Nov 19 21:39:18 IST 2026
+phase cal of seed 264 not running and not done: (re)launching Thu Nov 19 21:39:18 IST 2026
+seed 264 heavy params: q=0.85 D=27.0 theta0=0.3670 ME2E_D=13.1971 ratio=0.5623 n_cal=2607 Thu Nov 19 21:47:11 IST 2026
+seed 264 light params: q=m1.6 D=44.0 theta0=1.0000 ME2E_D=13.1971 ratio=0.5623 n_cal=2607 Thu Nov 19 21:47:19 IST 2026
+phase val of seed 264 not running and not done: (re)launching Thu Nov 19 21:47:19 IST 2026
+seed 264 val heavy done Thu Nov 19 22:14:48 IST 2026
+phase val of seed 264 not running and not done: (re)launching Thu Nov 19 22:14:48 IST 2026
+seed 264 val light done Thu Nov 19 22:42:47 IST 2026
+phase cal of seed 265 not running and not done: (re)launching Thu Nov 19 22:42:48 IST 2026
+seed 265 heavy params: q=0.85 D=26.0 theta0=0.4840 ME2E_D=11.9198 ratio=0.5457 n_cal=2672 Thu Nov 19 22:50:41 IST 2026
+seed 265 light params: q=m1.6 D=42.0 theta0=1.0000 ME2E_D=11.9198 ratio=0.5457 n_cal=2672 Thu Nov 19 22:50:47 IST 2026
+phase val of seed 265 not running and not done: (re)launching Thu Nov 19 22:50:48 IST 2026
+phase val of seed 265 not running and not done: (re)launching Thu Nov 19 23:14:39 IST 2026
+phase val of seed 265 not running and not done: (re)launching Thu Nov 19 23:22:22 IST 2026
+seed 265 val heavy done Thu Nov 19 23:50:17 IST 2026
+phase val of seed 265 not running and not done: (re)launching Thu Nov 19 23:50:19 IST 2026
+adb.exe: no devices/emulators found
+seed 265 val light done Fri Nov 20 00:18:16 IST 2026
+adb.exe: no devices/emulators found
+phase cal of seed 266 not running and not done: (re)launching Fri Nov 20 00:19:17 IST 2026
+seed 266 heavy params: q=0.85 D=27.0 theta0=0.3823 ME2E_D=12.5653 ratio=0.5536 n_cal=2640 Fri Nov 20 00:27:27 IST 2026
+seed 266 light params: q=m1.6 D=43.0 theta0=1.0000 ME2E_D=12.5653 ratio=0.5536 n_cal=2640 Fri Nov 20 00:27:46 IST 2026
+phase val of seed 266 not running and not done: (re)launching Fri Nov 20 00:27:46 IST 2026
+seed 266 val heavy done Fri Nov 20 00:55:47 IST 2026
+phase val of seed 266 not running and not done: (re)launching Fri Nov 20 00:55:47 IST 2026
+phase val of seed 266 not running and not done: (re)launching Fri Nov 20 01:21:40 IST 2026
+seed 266 val light done Fri Nov 20 01:49:40 IST 2026
+phase cal of seed 267 not running and not done: (re)launching Fri Nov 20 01:49:41 IST 2026
+seed 267 heavy params: q=0.85 D=27.0 theta0=0.4627 ME2E_D=11.9789 ratio=0.5330 n_cal=2659 Fri Nov 20 01:57:35 IST 2026
+seed 267 light params: q=m1.6 D=42.0 theta0=1.0000 ME2E_D=11.9789 ratio=0.5330 n_cal=2659 Fri Nov 20 01:57:43 IST 2026
+phase val of seed 267 not running and not done: (re)launching Fri Nov 20 01:57:44 IST 2026
+seed 267 val heavy done Fri Nov 20 02:25:40 IST 2026
+phase val of seed 267 not running and not done: (re)launching Fri Nov 20 02:25:40 IST 2026
+seed 267 val light done Fri Nov 20 02:53:40 IST 2026
+ALL_DONE
