@@ -1,0 +1,4 @@
+frame 0/2000 K=3 e2e=14.91 ms
+frame 500/2000 K=2 e2e=6.47 ms
+frame 1000/2000 K=1 e2e=4.31 ms
+frame 1500/2000 K=2 e2e=7.75 ms
