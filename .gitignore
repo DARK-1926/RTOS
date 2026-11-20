@@ -1,6 +1,7 @@
 /*
 !/.gitignore
 !/README.md
+!/requirements.txt
 !/PAPER/
 !/CC_PLAXITY_STUDY/
 /PAPER/tools/
@@ -28,3 +29,4 @@ __pycache__/
 /PAPER/tecs/main.pdf
 *.blg
 *.aux
+/PAPER/paper_figures.py
