@@ -1,0 +1,6 @@
+cal 243 done Wed Nov 18 04:22:35 PM IST 2026
+heavy random p = 0.3999
+val 243 done Wed Nov 18 04:50:08 PM IST 2026
+light random p = 0.0205
+val 243 done Wed Nov 18 05:17:24 PM IST 2026
+stress 243 done Wed Nov 18 05:24:23 PM IST 2026
