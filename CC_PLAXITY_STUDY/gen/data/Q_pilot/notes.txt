@@ -1,0 +1,9 @@
+NOTE pilot: Wi-Fi drop ~12:20 board time; driver race relaunched fbtest; duplicate killed; laptop fb copies are from the first complete run (md5 recorded).
+
+18 Nov, 14:25 IST (laptop clock):
+- The old driver (started 12:55, with fbtest args) was still alive. After its bogus empty-$4 val run (phase_val.done, log files
+  "val__*" on the Pi, "random p =" in run_log) it went on to launch the stress phase at Pi 12:43, before val light. Killed it.
+- Bug found in run_cl3_pi.sh: a constant-contention run (CC_KFIX) has one dwell of 100000 s, and the loop slept through it after
+  the pipeline had finished. stressK3 (300 frames, complete CSV) hung for 1 h. Fixed: the dwell sleep now wakes when the pipeline
+  ends (new md5 1233aa4af196ec8f78449d7336777775; the frame-level behaviour of seeded runs is unchanged, the loop only exits sooner).
+  Released K3 by killing its sleep; stressK4 ran with the fixed script. Pilot data only, never used for claims.

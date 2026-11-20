@@ -1,0 +1,6 @@
+stress 263  done Tue Nov  3 09:54:34 PM UTC 2026
+cal 263 1500 done Wed Nov  4 12:10:29 AM UTC 2026
+heavy random p = 0.4365
+val 263 heavy done Wed Nov  4 12:38:02 AM UTC 2026
+light random p = 0.0018
+val 263 light done Wed Nov  4 01:05:53 AM UTC 2026

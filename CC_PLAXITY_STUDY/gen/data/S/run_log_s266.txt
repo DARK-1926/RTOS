@@ -1,0 +1,6 @@
+cal 266 1500 done Wed Nov  4 04:06:50 AM UTC 2026
+heavy random p = 0.5561
+val 266 heavy done Wed Nov  4 04:34:49 AM UTC 2026
+light random p = 0.0576
+light random p = 0.0547
+val 266 light done Wed Nov  4 05:28:45 AM UTC 2026

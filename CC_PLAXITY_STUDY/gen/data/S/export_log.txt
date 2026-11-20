@@ -1,0 +1,60 @@
+q=0.85 D=27.0 theta0=0.3114 ME2E_D=13.5214 ratio=0.5724 n_cal=2690
+q=m1.6 D=43.0 theta0=1.0000 ME2E_D=13.5214 ratio=0.5724 n_cal=2690
+q=0.85 D=27.0 theta0=0.3265 ME2E_D=13.2343 ratio=0.5649 n_cal=2619
+q=m1.6 D=44.0 theta0=1.0000 ME2E_D=13.2343 ratio=0.5649 n_cal=2619
+q=0.85 D=27.0 theta0=0.3437 ME2E_D=12.8010 ratio=0.5491 n_cal=2753
+q=m1.6 D=43.0 theta0=1.0000 ME2E_D=12.8010 ratio=0.5491 n_cal=2753
+Traceback (most recent call last):
+  File "D:\RTKK\CC_PLAXITY_STUDY\gen\kp_cl3_export.py", line 47, in <module>
+    main(*sys.argv[1:5])
+  File "D:\RTKK\CC_PLAXITY_STUDY\gen\kp_cl3_export.py", line 39, in main
+    r = pd.read_csv(cal_rand); r = r[(r.done == 1) & (r.regime != "K-1")].iloc[20:]
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohit\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohit\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohit\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohit\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\io\parsers\readers.py", line 1898, in _make_engine
+    return mapping[engine](f, **self.options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohit\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 93, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "parsers.pyx", line 581, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+Traceback (most recent call last):
+  File "D:\RTKK\CC_PLAXITY_STUDY\gen\kp_cl3_export.py", line 47, in <module>
+    main(*sys.argv[1:5])
+  File "D:\RTKK\CC_PLAXITY_STUDY\gen\kp_cl3_export.py", line 39, in main
+    r = pd.read_csv(cal_rand); r = r[(r.done == 1) & (r.regime != "K-1")].iloc[20:]
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohit\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohit\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohit\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohit\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\io\parsers\readers.py", line 1898, in _make_engine
+    return mapping[engine](f, **self.options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohit\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 93, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "parsers.pyx", line 581, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+q=0.85 D=27.0 theta0=0.3670 ME2E_D=13.1971 ratio=0.5623 n_cal=2607
+q=m1.6 D=44.0 theta0=1.0000 ME2E_D=13.1971 ratio=0.5623 n_cal=2607
+q=0.85 D=26.0 theta0=0.4840 ME2E_D=11.9198 ratio=0.5457 n_cal=2672
+q=m1.6 D=42.0 theta0=1.0000 ME2E_D=11.9198 ratio=0.5457 n_cal=2672
+q=0.85 D=27.0 theta0=0.3823 ME2E_D=12.5653 ratio=0.5536 n_cal=2640
+q=m1.6 D=43.0 theta0=1.0000 ME2E_D=12.5653 ratio=0.5536 n_cal=2640
+q=0.85 D=27.0 theta0=0.4627 ME2E_D=11.9789 ratio=0.5330 n_cal=2659
+q=m1.6 D=42.0 theta0=1.0000 ME2E_D=11.9789 ratio=0.5330 n_cal=2659
