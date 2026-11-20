@@ -1,0 +1,10 @@
+=== Addendum M freeze Sun Nov 15 20:21:41 IST 2026 (Pi chain still running; no Pi confirmatory CSV pulled or read)
+fde10fdddeaffa228936b2436a7f33b6 *m_confirm.py
+2420c3839c51f0102841a8664b450a27 *wh_methods.py
+8ec4161befc49ec6944110ca4be2a84f *l_confirm.py
+fbba20ce3b971801b5876aff051a9743 *kpf_methods.py
+a6178e31ea2b7156da572602800dd603 *baselines_j.py
+31403c5bcbb1bcef841e8544af7da40c *h_confirm.py
+f6f0f33f50e61f620e1a5b5a56b83977 *../PROTOCOL_GENERALIZATION.md
+NOTE Sun Nov 15 20:54:07 IST 2026: protocol re-hashed in md5_addendumN.txt after Addendum N text was appended (Addenda L, M text unchanged).
+RESULT (Sun Nov 15 21:50:07 IST 2026): frozen code unchanged. M1 18/18, M2 18/18, M3 15/18, M4 18/18, M5 17/18, M6 36/36: all PASS. Mean FPR cost of the rule +0.012 / +0.023 / +0.022 for (4,20) / (6,50) / (10,100); BG-ACI alone peaks at 7.3 / 9.3 / 15.8 per window.

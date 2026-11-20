@@ -1,0 +1,11 @@
+--- pilot seed 131: D0=26.0 D'=[24.0, 25.0, 27.0, 28.0]
+--- pilot seed 132: D0=25.0 D'=[24.0, 24.0, 26.0, 27.0]
+
+means by primary, deadline quantile, method:
+                 auc_act                                         ece01                                  
+method       GBDT-all@D0    KPF LR-all retrained LR-all@D0 GBDT-all@D0    KPF LR-all retrained LR-all@D0
+primary q                                                                                               
+False   0.75       0.846  0.856            0.862     0.858       0.170  0.104            0.046     0.130
+        0.80       0.827  0.839            0.841     0.837       0.126  0.088            0.055     0.097
+        0.90       0.809  0.823            0.822     0.824       0.067  0.081            0.069     0.108
+        0.95       0.818  0.836            0.829     0.834       0.091  0.073            0.069     0.135

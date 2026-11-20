@@ -1,0 +1,10 @@
+=== Addendum K freeze Sun Nov  8 14:57:04 IST 2026 (after code-only smoke on pilot 131-132; no code change after smoke)
+cdaf195830000312fd5b5099708aedfd *k_confirm.py
+a6178e31ea2b7156da572602800dd603 *baselines_j.py
+fbba20ce3b971801b5876aff051a9743 *kpf_methods.py
+ac80af874705f0c231a64f83d2ff775f *j_confirm.py
+04f9c645539f7aabd6baaab7e49f6caf *../PROTOCOL_GENERALIZATION.md
+RESULT (Sun Nov  8 15:20:04 IST 2026): frozen code unchanged. K1 FAIL 16/24, K2 FAIL 18/24, K3 FAIL 17/24, K4 PASS 23/24.
+Pattern: KPF's calibration advantage appears only for deadlines far from D0 (q95 ECE 0.038 vs LR@D0 0.160; q90 0.049 vs 0.108);
+at q75/q80 LR@D0 is as good (0.059/0.052 vs 0.064/0.057). LR's ranking transfers across deadlines (AUROC ~0.005 above KPF).
+Deadline flexibility is NOT a clean advantage; reported as is.

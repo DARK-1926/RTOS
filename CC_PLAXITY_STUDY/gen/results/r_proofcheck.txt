@@ -1,0 +1,60 @@
+C1-C5: exhaustive over predictor decision, outcome and delay of every frame
+K=2 m=1 L=1 T=12 seq=  16777216  C1 viol=0  C2 viol=0  C3 worst=1 (expect 1)  C4 fail=0  C5 caught=yes  OK
+K=2 m=1 L=2 T= 9 seq= 134217728  C1 viol=0  C2 viol=0  C3 worst=2 (expect 2)  C4 fail=0  C5 caught=yes  OK
+K=2 m=1 L=3 T= 8 seq= 429981696  C1 viol=0  C2 viol=0  C3 worst=2 (expect 2)  C4 fail=0  C5 caught=yes  OK
+K=3 m=1 L=1 T=12 seq=  16777216  C1 viol=0  C2 viol=0  C3 worst=1 (expect 1)  C4 fail=0  C5 caught=yes  OK
+K=3 m=1 L=2 T= 9 seq= 134217728  C1 viol=0  C2 viol=0  C3 worst=2 (expect 2)  C4 fail=0  C5 caught=yes  OK
+K=3 m=1 L=3 T= 8 seq= 429981696  C1 viol=0  C2 viol=0  C3 worst=3 (expect 3)  C4 fail=0  C5 caught=yes  OK
+K=3 m=2 L=1 T=12 seq=  16777216  C1 viol=0  C2 viol=0  C3 worst=2 (expect 2)  C4 fail=0  C5 caught=yes  OK
+K=3 m=2 L=2 T= 9 seq= 134217728  C1 viol=0  C2 viol=0  C3 worst=3 (expect 3)  C4 fail=0  C5 caught=yes  OK
+K=3 m=2 L=3 T= 8 seq= 429981696  C1 viol=0  C2 viol=0  C3 worst=3 (expect 3)  C4 fail=0  C5 caught=yes  OK
+K=4 m=1 L=1 T=12 seq=  16777216  C1 viol=0  C2 viol=0  C3 worst=1 (expect 1)  C4 fail=0  C5 caught=yes  OK
+K=4 m=1 L=2 T= 9 seq= 134217728  C1 viol=0  C2 viol=0  C3 worst=2 (expect 2)  C4 fail=0  C5 caught=yes  OK
+K=4 m=1 L=3 T= 8 seq= 429981696  C1 viol=0  C2 viol=0  C3 worst=3 (expect 3)  C4 fail=0  C5 caught=yes  OK
+K=4 m=2 L=1 T=12 seq=  16777216  C1 viol=0  C2 viol=0  C3 worst=2 (expect 2)  C4 fail=0  C5 caught=yes  OK
+K=4 m=2 L=2 T= 9 seq= 134217728  C1 viol=0  C2 viol=0  C3 worst=3 (expect 3)  C4 fail=0  C5 caught=yes  OK
+K=4 m=2 L=3 T= 8 seq= 429981696  C1 viol=0  C2 viol=0  C3 worst=4 (expect 4)  C4 fail=0  C5 caught=yes  OK
+K=4 m=3 L=1 T=12 seq=  16777216  C1 viol=0  C2 viol=0  C3 worst=3 (expect 3)  C4 fail=0  C5 caught=yes  OK
+K=4 m=3 L=2 T= 9 seq= 134217728  C1 viol=0  C2 viol=0  C3 worst=4 (expect 4)  C4 fail=0  C5 caught=yes  OK
+K=4 m=3 L=3 T= 8 seq= 429981696  C1 viol=0  C2 viol=0  C3 worst=4 (expect 4)  C4 fail=0  C5 caught=yes  OK
+K=5 m=1 L=1 T=12 seq=  16777216  C1 viol=0  C2 viol=0  C3 worst=1 (expect 1)  C4 fail=0  C5 caught=yes  OK
+K=5 m=1 L=2 T= 8 seq=  16777216  C1 viol=0  C2 viol=0  C3 worst=2 (expect 2)  C4 fail=0  C5 caught=yes  OK
+K=5 m=1 L=3 T= 8 seq= 429981696  C1 viol=0  C2 viol=0  C3 worst=3 (expect 3)  C4 fail=0  C5 caught=yes  OK
+K=5 m=2 L=1 T=12 seq=  16777216  C1 viol=0  C2 viol=0  C3 worst=2 (expect 2)  C4 fail=0  C5 caught=yes  OK
+K=5 m=2 L=2 T= 8 seq=  16777216  C1 viol=0  C2 viol=0  C3 worst=3 (expect 3)  C4 fail=0  C5 caught=yes  OK
+K=5 m=2 L=3 T= 8 seq= 429981696  C1 viol=0  C2 viol=0  C3 worst=4 (expect 4)  C4 fail=0  C5 caught=yes  OK
+K=5 m=3 L=1 T=12 seq=  16777216  C1 viol=0  C2 viol=0  C3 worst=3 (expect 3)  C4 fail=0  C5 caught=yes  OK
+K=5 m=3 L=2 T= 8 seq=  16777216  C1 viol=0  C2 viol=0  C3 worst=4 (expect 4)  C4 fail=0  C5 caught=yes  OK
+K=5 m=3 L=3 T= 8 seq= 429981696  C1 viol=0  C2 viol=0  C3 worst=5 (expect 5)  C4 fail=0  C5 caught=yes  OK
+K=5 m=4 L=1 T=12 seq=  16777216  C1 viol=0  C2 viol=0  C3 worst=4 (expect 4)  C4 fail=0  C5 caught=yes  OK
+K=5 m=4 L=2 T= 8 seq=  16777216  C1 viol=0  C2 viol=0  C3 worst=5 (expect 5)  C4 fail=0  C5 caught=yes  OK
+K=5 m=4 L=3 T= 8 seq= 429981696  C1 viol=0  C2 viol=0  C3 worst=5 (expect 5)  C4 fail=0  C5 caught=yes  OK
+C6: long-run bound, exhaustive over alarm/outcome choices allowed by the threshold
+L=0 theta1=0.00 T= 6 sequences=     1396 violations=0
+L=0 theta1=0.00 T=10 sequences=   138854 violations=0
+L=0 theta1=0.00 T=14 sequences= 13795276 violations=0
+L=0 theta1=0.50 T= 6 sequences=     1324 violations=0
+L=0 theta1=0.50 T=10 sequences=   131060 violations=0
+L=0 theta1=0.50 T=14 sequences= 13015732 violations=0
+L=0 theta1=1.00 T= 6 sequences=      594 violations=0
+L=0 theta1=1.00 T=10 sequences=    58886 violations=0
+L=0 theta1=1.00 T=14 sequences=  5848252 violations=0
+L=1 theta1=0.00 T= 6 sequences=     1612 violations=0
+L=1 theta1=0.00 T=10 sequences=   143780 violations=0
+L=1 theta1=0.00 T=14 sequences= 12836740 violations=0
+L=1 theta1=0.50 T= 6 sequences=     1444 violations=0
+L=1 theta1=0.50 T=10 sequences=   128320 violations=0
+L=1 theta1=0.50 T=14 sequences= 11451604 violations=0
+L=1 theta1=1.00 T= 6 sequences=      304 violations=0
+L=1 theta1=1.00 T=10 sequences=    27576 violations=0
+L=1 theta1=1.00 T=14 sequences=  2460496 violations=0
+L=2 theta1=0.00 T= 6 sequences=     2336 violations=0
+L=2 theta1=0.00 T=10 sequences=   199880 violations=0
+L=2 theta1=0.00 T=14 sequences= 16954232 violations=0
+L=2 theta1=0.50 T= 6 sequences=     1760 violations=0
+L=2 theta1=0.50 T=10 sequences=   145592 violations=0
+L=2 theta1=0.50 T=14 sequences= 12367040 violations=0
+L=2 theta1=1.00 T= 6 sequences=      200 violations=0
+L=2 theta1=1.00 T=10 sequences=    17904 violations=0
+L=2 theta1=1.00 T=14 sequences=  1547792 violations=0
+ALL CHECKS PASSED

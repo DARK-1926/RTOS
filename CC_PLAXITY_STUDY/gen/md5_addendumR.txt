@@ -1,0 +1,19 @@
+Addendum R freeze, 2026-11-19 12:28 IST, before any confirmatory data (seeds 251-253). Pilot seed 259 in data/R_pilot.
+e61e2cac9146c80d87da8a78e025f064 *r_confirm.py
+465e46f318c3ae17a69f880604d4c7f7 *r_protocol_text.md
+0fa4d75901468da72ac2ecde468a537c *../PROTOCOL_GENERALIZATION.md
+1b3b60e9c44b49de87aafebd146b66e9 *r_conformance.py
+3ccfb6d8490f2618b7e87f8bf6bb60ef *proofcheck.c
+a25e6afd75f8c16d996eea75d9706742 *../ros2/pi/run_cl3_pi.sh
+153861762a6722f162aafa1d80012f43 *../ros2/pi/pi_r_stress.sh
+0e1489458c63203ef6afbf9b7be16056 *../ros2/cc_lidar_ros/src/lidar_ros_cl3.cpp
+board side (Pi 5):
+a25e6afd75f8c16d996eea75d9706742  run_cl3_pi.sh
+153861762a6722f162aafa1d80012f43  pi_r_stress.sh
+50ca12d71546d038fa4e3fd0a7add9c9  ws/install/cc_lidar_ros/lib/cc_lidar_ros/lidar_ros_cl3
+a42d2cda09e671e27758158e719b7666  dummy_params.txt
+commands: pi_r_stress.sh 251 3000 base-idle r; 252 3000 idle-base r; 253 3000 base-idle r
+
+RESULT (19 Nov 2026 ~13:20 IST): NOT COMPLETED. The Pi 5 became unreachable (host unreachable at the network level) during the
+confirmatory runs; no confirmatory data were retrieved. Only pilot data (seed 259, data/R_pilot) exist; per protocol they are not
+used for claims. The paper reports the experiment as not completed.

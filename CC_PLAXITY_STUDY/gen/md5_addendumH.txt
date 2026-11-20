@@ -1,0 +1,31 @@
+31403c5bcbb1bcef841e8544af7da40c *h_confirm.py
+b6e2936dba387a88efd4c84ea13c0d51 *g_confirm.py
+68aff362ada5aeef2d7a3459890a50f9 *kpt_methods.py
+5cbd020da269736a518000b2b0d90d18 *kp_methods.py
+b8321947aa43a07331fac97d975a34d1 *g13_analysis.py
+e98a1693be8b8ed42e8cebafdd35be34 *g11_analysis.py
+d9d64f5010e23e9f1fb664a97ae15eef *sweep_analysis.py
+bfd75d0407a77d84f49c1376746d1c92 *../ros2/run_g13.sh
+100821c383c1d2579bc7917074d7b81b *../ros2/run_g14.sh
+ce673436803bea2a5b91026ec1278e8d *../ros2/g13_all.sh
+e44bb6146aaae1a6f8dbad412a8555ae *../ros2/g14_all.sh
+1f8fd650370e85164ce16bcaf08896e6 *../ros2/h_chain.sh
+854cb6b906bc03895b00113f800a9ba5 *../ros2/spin_nice.py
+d6c9bfb1336a1809b9a85bd549f6db7d *../ros2/cc_lidar_ros/src/lidar_ros_tm.cpp
+f9bf401079b3ab40999a30224866572c *../PROTOCOL_GENERALIZATION.md
+Sat Nov  7 18:58:13 IST 2026
+INCIDENT (laptop Sat Nov  7 22:32:23 IST 2026): board crash-reboot during H13 seed 161 calibration at frame ~2000 (K=0 at the time; journal shows several crash boots). Watcher v1 hung on adb while the board was offline, so nothing resumed for ~3 h. Partial seed 161 is discarded by h_chain.sh (moved to h/discarded_*) and re-run from calibration. Watcher replaced by v2 (timeouts, relaunch when idle).
+DEVIATION (laptop Sat Nov  7 22:57:26 IST 2026): h_chain.sh orchestration bug: seeds 162,163,172,173 exited immediately because the previous run's freq logger still held the g13/g14 lock; part1.done was touched unconditionally. Fixed: h_chain waits for the lock and marks done only when every seed is complete. Measurement/analysis code unchanged. New h_chain md5: 98ccfa0f16c87082a0e75b372277e2ed
+PART 2 FREEZE (laptop Sat Nov  7 23:46:55 IST 2026): pilot seed 189 (K0, 200 frames, 100 ms): median e2e 74.43 ms > 45 -> period = smallest multiple of 50 >= 2.2*74.43=163.7 -> 200 ms. Pilot inliers median 171.
+52f4e10dc69ac62d94107ec029e226b1 *ros2/cc_lidar_ros/src/vo_ros_tm.cpp
+9cecc58e33607735cd2639089f1ba873 *ros2/run_vo.sh
+b94aa6ba77581a6ab2fcc0f8e619b05c *ros2/vo_all.sh
+98ccfa0f16c87082a0e75b372277e2ed *ros2/h_chain.sh
+c6cd24003f2b17393db7e0c6eb3be79a *tools/euroc_prep.py
+52f4e10dc69ac62d94107ec029e226b1  ws/src/cc_lidar_ros/src/vo_ros_tm.cpp
+9cecc58e33607735cd2639089f1ba873  run_vo.sh
+b94aa6ba77581a6ab2fcc0f8e619b05c  vo_all.sh
+98ccfa0f16c87082a0e75b372277e2ed  h_chain.sh
+94da7e7c1f543327289073f20cb7f561  ws/install/cc_lidar_ros/lib/cc_lidar_ros/vo_ros_tm
+INCIDENT (laptop Sun Nov  8 01:49:34 IST 2026): board crash-reboot #4 during Part 2 seed 181 (first attempt). Board was unreachable until ~01:34 IST; watchdog v2 relaunched; partial vo_181 discarded by h_chain and re-run from calibration.
+USER DECISION (laptop Sun Nov  8 01:53:32 IST 2026): user asked to stop after seed 181; h_chain killed so seeds 182-183 are not run. Part 2 therefore has n=1 instead of the pre-registered 3; its pass rules cannot be evaluated as written and seed 181 is reported descriptively.

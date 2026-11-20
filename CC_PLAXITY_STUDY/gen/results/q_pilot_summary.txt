@@ -1,0 +1,67 @@
+
+===== Addendum Q (Q_pilot, seeds [249]) =====
+Q1 heavy: level-2 frames of kpmd, pooled over seeds, late <= 2%                        1/1 (rule 1/1) -> PASS
+Q1b at least 100 level-2 frames in total, heavy kpmd                                   0/1 (rule 1/1) -> FAIL
+Q2 theorem, exact form: worst 20-window of late non-level-2 frames <= 4, kpmd, both loads 2/2 (rule 2/2) -> PASS
+Q3 heavy: worst 20-window of ALL late frames <= 4, kpmd                                1/1 (rule >=0/1) -> PASS
+Q3L light: worst 20-window of ALL late frames <= 4, kpmd                               1/1 (rule 1/1) -> PASS
+Q4 prediction, stress K3: level-2 strength NOT on time at the heavy deadline (late > 0.5%) 1/1 (rule >=0/1) -> PASS
+Q5 heavy: worst window of all late frames, kpmd <= kpmwh                               1/1 (rule >=0/1) -> PASS
+Q6 latch-up isolated, heavy: kpmn degrades fewer K0 frames than kp                     1/1 (rule 1/1) -> PASS
+Q7 no latch, heavy: kpmn K0 degraded <= max(1.5 x none would-alarm, 0.02)              1/1 (rule 1/1) -> PASS
+Q8 long-run guarantee, kpm kpmwh kpmd, both loads                                      6/6 (rule 6/6) -> PASS
+Q9a light: kpm degrades <= 25% of frames                                               1/1 (rule 1/1) -> PASS
+Q9b light: kpm misses <= random (same budget)                                          1/1 (rule >=0/1) -> PASS
+Q10 inline cost p99 < 100 us, kpmd                                                     2/2 (rule 2/2) -> PASS
+Q11 stress K3, pooled: level-2 strength late at the light deadline <= 1.5%             1/1 (rule 1/1) -> PASS
+stress K3 pooled: 2 late of 271 at the light deadline; 95% upper bound on the late rate 2.3048%
+stress K3 pooled: 25 late of 271 at the heavy deadline (9.23%)
+
+per seed, load and policy:
+                     n  not_done    D   miss  degraded  degraded_K0  alarm_K0  unwarned     ub  maxwin_unw  maxwin_late  maxwin_late_nl2  n_l2  late_l2  miss_released_degraded  us_p99
+seed load  policy                                                                                                                                                                      
+249  heavy none    336         0  6.0  0.348     0.000        0.000     0.000     0.030  0.266           6           19               19     0        0                     NaN  16.242
+           kp      335         0  6.0  0.039     0.501        0.075     0.075     0.036  0.267           8            8                8     0        0                   0.000  15.216
+           kpmn    336         0  6.0  0.086     0.238        0.000     0.000     0.077  0.266           7            7                7     0        0                   0.029  15.628
+           kpm     336         0  6.0  0.095     0.324        0.000     0.000     0.048  0.266           6           10               10     0        0                   0.133  14.129
+           kpmwh   336         0  6.0  0.131     0.375        0.000     0.000     0.062  0.266           4            9                9     0        0                   0.078  16.077
+           kpmd    336         0  6.0  0.086     0.438        0.000     0.000     0.060  0.266           4            4                4    56        0                   0.084  15.695
+           toba    336         0  6.0  0.074     0.024        0.000     0.000     0.060  0.266           7            8                8     0        0                     NaN  17.014
+           random  336         0  6.0  0.199     0.286        0.271     0.271     0.193  0.266          13           13               13     0        0                   0.021  16.280
+     light none    341         0  9.0  0.021     0.000        0.000     0.000     0.021  0.352           3            3                3     0        0                     NaN  13.458
+           kp      341         0  9.0  0.006     0.000        0.000     0.000     0.006  0.352           2            2                2     0        0                     NaN  14.510
+           kpmn    340         0  9.0  0.015     0.000        0.000     0.000     0.015  0.353           4            4                4     0        0                     NaN  12.401
+           kpm     341         0  9.0  0.035     0.000        0.000     0.000     0.035  0.352           4            4                4     0        0                     NaN  14.568
+           kpmwh   341         0  9.0  0.047     0.073        0.000     0.000     0.047  0.352           4            4                4     0        0                   0.000  14.152
+           kpmd    341         0  9.0  0.012     0.000        0.000     0.000     0.012  0.352           2            2                2     0        0                     NaN  13.456
+           toba    341         0  9.0  0.038     0.012        0.000     0.000     0.038  0.352           6            6                6     0        0                     NaN  14.424
+           random  341         0  9.0  0.059     0.000        0.000     0.000     0.059  0.352           9            9                9     0        0                     NaN  18.122
+
+means, heavy:
+         miss  degraded  degraded_K0  alarm_K0  unwarned     ub  maxwin_unw  maxwin_late  maxwin_late_nl2  n_l2  late_l2  miss_released_degraded  us_p99
+policy                                                                                                                                                  
+none    0.348     0.000        0.000     0.000     0.030  0.266         6.0         19.0             19.0   0.0      0.0                     NaN  16.242
+kp      0.039     0.501        0.075     0.075     0.036  0.267         8.0          8.0              8.0   0.0      0.0                   0.000  15.216
+kpmn    0.086     0.238        0.000     0.000     0.077  0.266         7.0          7.0              7.0   0.0      0.0                   0.029  15.628
+kpm     0.095     0.324        0.000     0.000     0.048  0.266         6.0         10.0             10.0   0.0      0.0                   0.133  14.129
+kpmwh   0.131     0.375        0.000     0.000     0.062  0.266         4.0          9.0              9.0   0.0      0.0                   0.078  16.077
+kpmd    0.086     0.438        0.000     0.000     0.060  0.266         4.0          4.0              4.0  56.0      0.0                   0.084  15.695
+toba    0.074     0.024        0.000     0.000     0.060  0.266         7.0          8.0              8.0   0.0      0.0                     NaN  17.014
+random  0.199     0.286        0.271     0.271     0.193  0.266        13.0         13.0             13.0   0.0      0.0                   0.021  16.280
+
+means, light:
+         miss  degraded  degraded_K0  alarm_K0  unwarned     ub  maxwin_unw  maxwin_late  maxwin_late_nl2  n_l2  late_l2  miss_released_degraded  us_p99
+policy                                                                                                                                                  
+none    0.021     0.000          0.0       0.0     0.021  0.352         3.0          3.0              3.0   0.0      0.0                     NaN  13.458
+kp      0.006     0.000          0.0       0.0     0.006  0.352         2.0          2.0              2.0   0.0      0.0                     NaN  14.510
+kpmn    0.015     0.000          0.0       0.0     0.015  0.353         4.0          4.0              4.0   0.0      0.0                     NaN  12.401
+kpm     0.035     0.000          0.0       0.0     0.035  0.352         4.0          4.0              4.0   0.0      0.0                     NaN  14.568
+kpmwh   0.047     0.073          0.0       0.0     0.047  0.352         4.0          4.0              4.0   0.0      0.0                     0.0  14.152
+kpmd    0.012     0.000          0.0       0.0     0.012  0.352         2.0          2.0              2.0   0.0      0.0                     NaN  13.456
+toba    0.038     0.012          0.0       0.0     0.038  0.352         6.0          6.0              6.0   0.0      0.0                     NaN  14.424
+random  0.059     0.000          0.0       0.0     0.059  0.352         9.0          9.0              9.0   0.0      0.0                     NaN  18.122
+
+stress runs (every frame at level-2 strength, constant contention; K4 is exploratory):
+ seed      tag   n  not_done  degraded_frac  e5_max  e5_p999  e5_p50  D_heavy  late_heavy  late_frac_heavy  cp95_heavy  D_light  late_light  late_frac_light  cp95_light
+  249 stressK3 271         0            1.0 13.1977  12.3717  1.5234      6.0          25           0.0923      0.1265      9.0           2           0.0074      0.0230
+  249 stressK4 272         0            1.0 11.5096  11.3139  1.7632      6.0          52           0.1912      0.2347      9.0           7           0.0257      0.0478

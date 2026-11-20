@@ -1,0 +1,16 @@
+=== Addendum L freeze Sun Nov 15 20:03:01 IST 2026 (before any Pi confirmatory data; pilot s199 checked scripts only)
+8ec4161befc49ec6944110ca4be2a84f *l_confirm.py
+2322a68e305011bb8b7b702b126f70aa *i_confirm.py
+ac80af874705f0c231a64f83d2ff775f *j_confirm.py
+fbba20ce3b971801b5876aff051a9743 *kpf_methods.py
+a6178e31ea2b7156da572602800dd603 *baselines_j.py
+31403c5bcbb1bcef841e8544af7da40c *h_confirm.py
+c3e090a4c67760177ee19a60da71cc56 *../ros2/pi/run_pi.sh
+b3e588e49f81b59cad64956bcb33ccdc *../ros2/pi/pi_chain.sh
+d7f96665477fe6647a70a454774d97fb *../ros2/pi/pi_env.sh
+52f4e10dc69ac62d94107ec029e226b1 *../ros2/cc_lidar_ros/src/vo_ros_tm.cpp
+d6c9bfb1336a1809b9a85bd549f6db7d *../ros2/cc_lidar_ros/src/lidar_ros_tm.cpp
+51f664a5a0ddfbb64e18e21e6b240338 *../PROTOCOL_GENERALIZATION.md  (superseded: protocol re-hashed in md5_addendumM.txt after Addendum M text was appended; Addendum L text unchanged)
+Pilot s199 (never analysed): median e2e lidar K0 4.8 ms / K3 7.7 ms; drone K0 12-16 ms. Periods kept at 100/200 ms as pre-registered (low utilisation on the faster Pi; noted).
+Housekeeping: micromamba created ~/.conda/environments.txt and ~/.mamba/pkgs/urls.txt on the borrowed Pi despite register_envs=false; both held only our env path, removed. /dev/shm/lttng-ust-wait-8* (16 KB, ROS tracing) to remove at cleanup.
+RESULT (Sun Nov 15 21:50:07 IST 2026): 6 Pi seeds complete, no restarts, 12 CSVs md5-verified (md5_L_data.txt); clock 2800 MHz throughout, max SoC temp 67.2 C (no throttling). Frozen code unchanged. L-I: I1 6/6, I2 6/6, I3 3/3, I4 FAIL 3/6, I5 6/6, I6 6/6, I7 6/6. L-J: J1 6/6, J2 FAIL 3/6, J3 6/6, J4 PASS 5/6, J5 6/6, J6 18/18. Same two failures as on the UNO Q (I4, J2); J4 passes here.

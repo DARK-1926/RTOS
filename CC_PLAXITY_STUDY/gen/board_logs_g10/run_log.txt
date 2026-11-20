@@ -1,0 +1,66 @@
+cal 71 start Mon Nov  2 05:40:24 PM UTC 2026
+cal 71 end rc=0 Mon Nov  2 05:42:54 PM UTC 2026
+cal 72 start Mon Nov  2 05:42:54 PM UTC 2026
+cal 72 end rc=0 Mon Nov  2 05:45:24 PM UTC 2026
+cal 73 start Mon Nov  2 05:45:24 PM UTC 2026
+cal 73 end rc=0 Mon Nov  2 05:47:54 PM UTC 2026
+cal 74 start Mon Nov  2 05:47:54 PM UTC 2026
+cal 74 end rc=0 Mon Nov  2 05:50:24 PM UTC 2026
+cal 75 start Mon Nov  2 05:50:24 PM UTC 2026
+cal 75 end rc=0 Mon Nov  2 05:52:54 PM UTC 2026
+val 71 none start Mon Nov  2 05:53:21 PM UTC 2026
+val 71 none end rc=0 Mon Nov  2 05:55:01 PM UTC 2026
+val 71 toba start Mon Nov  2 05:55:01 PM UTC 2026
+val 71 toba end rc=0 Mon Nov  2 05:56:41 PM UTC 2026
+val 71 cc start Mon Nov  2 05:56:41 PM UTC 2026
+val 71 cc end rc=0 Mon Nov  2 05:58:21 PM UTC 2026
+val 71 ccsc start Mon Nov  2 05:58:21 PM UTC 2026
+val 71 ccsc end rc=0 Mon Nov  2 06:00:01 PM UTC 2026
+val 71 naive start Mon Nov  2 06:00:01 PM UTC 2026
+val 71 naive end rc=0 Mon Nov  2 06:01:41 PM UTC 2026
+val 72 none start Mon Nov  2 06:01:41 PM UTC 2026
+val 72 none end rc=0 Mon Nov  2 06:03:21 PM UTC 2026
+val 72 toba start Mon Nov  2 06:03:21 PM UTC 2026
+val 72 toba end rc=0 Mon Nov  2 06:05:01 PM UTC 2026
+val 72 cc start Mon Nov  2 06:05:01 PM UTC 2026
+val 72 cc end rc=0 Mon Nov  2 06:06:41 PM UTC 2026
+val 72 ccsc start Mon Nov  2 06:06:41 PM UTC 2026
+val 72 ccsc end rc=0 Mon Nov  2 06:08:21 PM UTC 2026
+val 72 naive start Mon Nov  2 06:08:21 PM UTC 2026
+val 72 naive end rc=0 Mon Nov  2 06:10:01 PM UTC 2026
+val 73 none start Mon Nov  2 06:10:01 PM UTC 2026
+val 73 none end rc=0 Mon Nov  2 06:11:41 PM UTC 2026
+val 73 toba start Mon Nov  2 06:11:41 PM UTC 2026
+val 73 toba end rc=0 Mon Nov  2 06:13:21 PM UTC 2026
+val 73 cc start Mon Nov  2 06:13:21 PM UTC 2026
+val 73 cc end rc=0 Mon Nov  2 06:15:01 PM UTC 2026
+val 73 ccsc start Mon Nov  2 06:15:01 PM UTC 2026
+val 73 ccsc end rc=0 Mon Nov  2 06:16:41 PM UTC 2026
+val 73 naive start Mon Nov  2 06:16:41 PM UTC 2026
+val 73 naive end rc=0 Mon Nov  2 06:18:21 PM UTC 2026
+val 74 none start Mon Nov  2 06:18:21 PM UTC 2026
+val 74 none end rc=0 Mon Nov  2 06:20:01 PM UTC 2026
+val 74 toba start Mon Nov  2 06:20:01 PM UTC 2026
+val 74 toba end rc=0 Mon Nov  2 06:21:41 PM UTC 2026
+val 74 cc start Mon Nov  2 06:21:41 PM UTC 2026
+val 74 cc end rc=0 Mon Nov  2 06:23:21 PM UTC 2026
+val 74 ccsc start Mon Nov  2 06:23:21 PM UTC 2026
+val 74 ccsc end rc=0 Mon Nov  2 06:25:01 PM UTC 2026
+val 74 naive start Mon Nov  2 06:25:01 PM UTC 2026
+val 74 naive end rc=0 Mon Nov  2 06:26:41 PM UTC 2026
+val 75 none start Mon Nov  2 06:26:41 PM UTC 2026
+val 75 none end rc=0 Mon Nov  2 06:28:21 PM UTC 2026
+val 75 toba start Mon Nov  2 06:28:22 PM UTC 2026
+val 75 toba end rc=0 Mon Nov  2 06:30:02 PM UTC 2026
+val 75 cc start Mon Nov  2 06:30:02 PM UTC 2026
+val 75 cc end rc=0 Mon Nov  2 06:31:42 PM UTC 2026
+val 75 ccsc start Mon Nov  2 06:31:42 PM UTC 2026
+val 75 ccsc end rc=0 Mon Nov  2 06:33:22 PM UTC 2026
+val 75 naive start Mon Nov  2 06:33:22 PM UTC 2026
+val 75 naive end rc=0 Mon Nov  2 06:35:02 PM UTC 2026
+G10s 101 start Mon Nov  2 06:35:02 PM UTC 2026
+G10s 101 end rc=0 Mon Nov  2 06:43:25 PM UTC 2026
+G10s 102 start Mon Nov  2 06:43:25 PM UTC 2026
+G10s 102 end rc=0 Mon Nov  2 06:51:48 PM UTC 2026
+G10s 103 start Mon Nov  2 06:51:48 PM UTC 2026
+G10s 103 end rc=0 Mon Nov  2 07:00:11 PM UTC 2026

@@ -1,0 +1,111 @@
+lidar 35
+lidar 50
+lidar 80
+pilot 30
+pilot 35
+hclock 28
+hclock 32
+ArmA cc_seed1.csv
+ArmA cc_seed2.csv
+ArmA cc_seed3.csv
+ArmA cc_seed4.csv
+ArmA cc_seed5.csv
+ArmB cc_perf_seed1.csv
+ArmB cc_perf_seed2.csv
+ArmB cc_perf_seed3.csv
+ArmB cc_perf_seed4.csv
+ArmB cc_perf_seed5.csv
+ArmC cc_perfgov_seed1.csv
+ArmC cc_perfgov_seed2.csv
+ArmC cc_perfgov_seed3.csv
+ArmC cc_perfgov_seed4.csv
+ArmC cc_perfgov_seed5.csv
+G1 G1_lidar_mem_held_s11.csv
+G1 G1_lidar_mem_held_s12.csv
+G1 G1_lidar_mem_held_s13.csv
+G1 G1_lidar_mem_held_s14.csv
+G1 G1_lidar_mem_held_s15.csv
+G2 G2_synth_cpu_held_s21.csv
+G2 G2_synth_cpu_held_s22.csv
+G2 G2_synth_cpu_held_s23.csv
+G3 G3_pc_synth_mem_s31.csv
+G3 G3_pc_synth_mem_s32.csv
+G3 G3_pc_synth_mem_s33.csv
+G4x G4x_lidar_mem_schedutil_s41.csv
+G4x G4x_lidar_mem_schedutil_s42.csv
+G8a G8a_c_lidar_perf_s51.csv
+D:\RTKK\CC_PLAXITY_STUDY\cc_plaxity.py:152: RuntimeWarning: invalid value encountered in divide
+  post /= post.sum(1, keepdims=True)
+G8a G8a_c_lidar_perf_s52.csv
+D:\RTKK\CC_PLAXITY_STUDY\cc_plaxity.py:152: RuntimeWarning: invalid value encountered in divide
+  post /= post.sum(1, keepdims=True)
+G8a G8a_c_lidar_perf_s53.csv
+G8a G8a_c_lidar_perf_s54.csv
+D:\RTKK\CC_PLAXITY_STUDY\cc_plaxity.py:152: RuntimeWarning: invalid value encountered in divide
+  post /= post.sum(1, keepdims=True)
+G8a G8a_c_lidar_perf_s55.csv
+G8b G8b_pc_c_lidar_s61.csv
+G8b G8b_pc_c_lidar_s62.csv
+G8b G8b_pc_c_lidar_s63.csv
+                           recall    fpr  precision  lead_ms_tp  late_alarms  tp_alarm_by_N2start
+cond          method                                                                             
+ArmA          CC-SC         0.999  0.381      0.269      59.720        0.006                0.984
+              CC-plaxity    0.998  0.172      0.446      59.409        0.005                0.978
+              LR-deadline   0.996  0.163      0.460      59.060        0.003                0.970
+              NaiveScale    0.999  0.531      0.210      59.882        0.006                0.987
+              Toba-eq       0.999  0.161      0.469      20.089        0.190                0.017
+ArmB          CC-SC         0.976  0.499      0.458      28.360        0.032                0.832
+              CC-plaxity    0.976  0.497      0.459      28.415        0.032                0.834
+              LR-deadline   0.992  0.646      0.398      27.528        0.032                0.789
+              NaiveScale    0.992  0.666      0.391      29.072        0.027                0.856
+              Toba-eq       1.000  0.995      0.304      21.050        0.114                0.648
+ArmC          CC-SC         0.992  0.419      0.484      28.961        0.041                0.846
+              CC-plaxity    0.992  0.419      0.484      28.961        0.041                0.846
+              LR-deadline   0.994  0.497      0.434      29.115        0.033                0.842
+              NaiveScale    0.997  0.662      0.364      30.736        0.022                0.902
+              Toba-eq       1.000  0.999      0.278      26.836        0.051                0.848
+G1            CC-SC         0.984  0.542      0.469      79.717        0.001                0.930
+              CC-plaxity    0.984  0.542      0.469      79.717        0.001                0.930
+              LR-deadline   0.988  0.557      0.460      75.014        0.001                0.888
+              NaiveScale    0.990  0.638      0.427      80.096        0.002                0.923
+              Toba-eq       1.000  1.000      0.325      54.464        0.003                0.774
+G2            CC-SC         0.959  0.481      0.476      26.152        0.053                0.751
+              CC-plaxity    0.959  0.477      0.479      26.076        0.054                0.749
+              LR-deadline   0.989  0.741      0.373      27.194        0.033                0.783
+              NaiveScale    0.986  0.705      0.384      27.890        0.039                0.834
+              Toba-eq       1.000  1.000      0.310      24.792        0.060                0.806
+G3            CC-SC         1.000  0.540      0.309      32.592        0.022                0.895
+              CC-plaxity    1.000  0.540      0.309      32.592        0.022                0.895
+              LR-deadline   1.000  0.514      0.319      30.413        0.033                0.823
+              NaiveScale    0.998  0.532      0.311      29.692        0.066                0.788
+              Toba-eq       1.000  0.770      0.277      19.461        0.151                0.384
+G4x           CC-SC         0.989  0.179      0.395      95.114        0.003                0.929
+              CC-plaxity    0.989  0.179      0.395      95.114        0.003                0.929
+              LR-deadline   0.994  0.191      0.381      91.922        0.003                0.916
+              NaiveScale    0.997  0.501      0.188     106.026        0.000                0.967
+              Toba-eq       1.000  1.000      0.103      51.098        0.006                0.775
+G8a           CC-SC         0.988  0.200      0.675      13.900        0.127                0.808
+              CC-plaxity    0.974  0.088      0.877       2.541        0.485                0.394
+              LR-deadline   0.994  0.231      0.644      16.354        0.057                0.902
+              NaiveScale    0.998  0.408      0.483      18.004        0.015                0.969
+              Toba-eq       1.000  1.000      0.284      18.297        0.001                0.997
+G8b           CC-SC         0.855  0.253      0.300      10.092        0.034                0.792
+              CC-plaxity    0.855  0.252      0.301      10.051        0.036                0.789
+              LR-deadline   0.889  0.294      0.276      10.928        0.013                0.856
+              NaiveScale    0.947  0.424      0.228      11.692        0.021                0.904
+              Toba-eq       1.000  1.000      0.129      12.660        0.000                1.000
+stage0_hclock CC-SC         1.000  0.235      0.521      20.492        0.201                0.620
+              CC-plaxity    1.000  0.230      0.528      19.952        0.213                0.598
+              LR-deadline   1.000  0.440      0.380      26.553        0.066                0.863
+              NaiveScale    1.000  0.706      0.275      28.540        0.026                0.936
+              Toba-eq       1.000  1.000      0.214      23.842        0.055                0.563
+stage0_lidar  CC-SC         1.000  0.109      0.757      51.045        0.004                0.916
+              CC-plaxity    1.000  0.109      0.757      51.045        0.004                0.916
+              LR-deadline   1.000  0.166      0.701      53.693        0.001                0.972
+              NaiveScale    1.000  0.658      0.467      55.000        0.000                1.000
+              Toba-eq       1.000  0.889      0.392      37.011        0.037                0.668
+stage0_pilot  CC-SC         0.999  0.340      0.628      30.534        0.016                0.928
+              CC-plaxity    0.999  0.340      0.628      30.534        0.016                0.928
+              LR-deadline   1.000  0.505      0.553      31.890        0.005                0.976
+              NaiveScale    1.000  0.583      0.514      32.334        0.001                0.995
+              Toba-eq       1.000  1.000      0.395      26.361        0.009                0.623

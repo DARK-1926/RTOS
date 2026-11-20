@@ -1,0 +1,15 @@
+68aff362ada5aeef2d7a3459890a50f9 *kpt_methods.py
+5cbd020da269736a518000b2b0d90d18 *kp_methods.py
+b8321947aa43a07331fac97d975a34d1 *g13_analysis.py
+b6e2936dba387a88efd4c84ea13c0d51 *g_confirm.py
+e98a1693be8b8ed42e8cebafdd35be34 *g11_analysis.py
+d9d64f5010e23e9f1fb664a97ae15eef *sweep_analysis.py
+d6c9bfb1336a1809b9a85bd549f6db7d *../ros2/cc_lidar_ros/src/lidar_ros_tm.cpp
+bfd75d0407a77d84f49c1376746d1c92 *../ros2/run_g13.sh
+100821c383c1d2579bc7917074d7b81b *../ros2/run_g14.sh
+ce673436803bea2a5b91026ec1278e8d *../ros2/g13_all.sh
+e44bb6146aaae1a6f8dbad412a8555ae *../ros2/g14_all.sh
+854cb6b906bc03895b00113f800a9ba5 *../ros2/spin_nice.py
+5773bb521b0f8101f80b381dcaf9d0f2 *../PROTOCOL_GENERALIZATION.md
+Sat Nov  7 16:07:41 IST 2026
+INCIDENT (Sat Nov  7 18:11:10 IST 2026): board reboot #2 during G14 seed-152 calibration (2501/3000 frames). Partial files moved to g14/discarded_reboot2/, not analysed. G13c (141-143) and G14 seed 151 had completed (rc=0). Seeds 152-153 re-run from scratch (same seeds, same schedules). Both reboots occurred at peak 4-core load: suspected USB power brownout.

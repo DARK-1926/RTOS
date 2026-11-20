@@ -1,0 +1,12 @@
+P s231 heavy n=2000 alpha=0.05 L=1 forced F=61 (3.050%)  U=99 (4.950%)  bound on F=470  (K-1)U/m=470  holds=True
+P s231 light n=2000 alpha=0.05 L=1 forced F=82 (4.100%)  U=51 (2.550%)  bound on F=242  (K-1)U/m=242  holds=True
+P s232 heavy n=2000 alpha=0.05 L=2 forced F=45 (2.250%)  U=68 (3.400%)  bound on F=522  (K-1)U/m=323  holds=True
+P s232 light n=2000 alpha=0.05 L=3 forced F=250 (12.500%)  U=149 (7.450%)  bound on F=1560  (K-1)U/m=708  holds=True
+P s233 heavy n=2000 alpha=0.05 L=1 forced F=61 (3.050%)  U=88 (4.400%)  bound on F=418  (K-1)U/m=418  holds=True
+P s233 light n=2000 alpha=0.05 L=3 forced F=168 (8.400%)  U=99 (4.950%)  bound on F=1380  (K-1)U/m=470  holds=True
+Q s241 heavy n=2000 alpha=0.05 L=1 forced F=161 (8.050%)  U=88 (4.400%)  bound on F=418  (K-1)U/m=418  holds=True
+Q s241 light n=2000 alpha=0.05 L=1 forced F=118 (5.900%)  U=107 (5.350%)  bound on F=508  (K-1)U/m=508  holds=True
+Q s242 heavy n=2000 alpha=0.05 L=1 forced F=141 (7.050%)  U=81 (4.050%)  bound on F=385  (K-1)U/m=385  holds=True
+Q s242 light n=2000 alpha=0.05 L=1 forced F=95 (4.750%)  U=100 (5.000%)  bound on F=475  (K-1)U/m=475  holds=True
+Q s243 heavy n=2000 alpha=0.05 L=1 forced F=102 (5.100%)  U=105 (5.250%)  bound on F=499  (K-1)U/m=499  holds=True
+Q s243 light n=2000 alpha=0.05 L=1 forced F=77 (3.850%)  U=73 (3.650%)  bound on F=347  (K-1)U/m=347  holds=True

@@ -1,0 +1,25 @@
+P seed 231 heavy kpmd   frames  2000  forced  109  mismatches 0  ambiguous-timing pairs 0  max e5 109.7 ms
+P seed 231 heavy kpmwh  frames  2000  forced   61  mismatches 0  ambiguous-timing pairs 0  max e5 44.9 ms
+P seed 231 light kpmd   frames  2000  forced   86  mismatches 0  ambiguous-timing pairs 0  max e5 61.1 ms
+P seed 231 light kpmwh  frames  2000  forced   82  mismatches 0  ambiguous-timing pairs 0  max e5 64.7 ms
+P seed 232 heavy kpmd   frames  2000  forced  160  mismatches 0  ambiguous-timing pairs 0  max e5 289.4 ms
+P seed 232 heavy kpmwh  frames  2000  forced   45  mismatches 0  ambiguous-timing pairs 0  max e5 180.9 ms
+P seed 232 light kpmd   frames  2000  forced  208  mismatches 0  ambiguous-timing pairs 0  max e5 81.1 ms
+P seed 232 light kpmwh  frames  2000  forced  250  mismatches 0  ambiguous-timing pairs 0  max e5 214.7 ms
+P seed 233 heavy kpmd   frames  2000  forced   69  mismatches 0  ambiguous-timing pairs 0  max e5 48.1 ms
+P seed 233 heavy kpmwh  frames  2000  forced   61  mismatches 0  ambiguous-timing pairs 0  max e5 83.2 ms
+P seed 233 light kpmd   frames  2000  forced  158  mismatches 0  ambiguous-timing pairs 0  max e5 186.0 ms
+P seed 233 light kpmwh  frames  2000  forced  168  mismatches 0  ambiguous-timing pairs 0  max e5 221.8 ms
+Q seed 241 heavy kpmd   frames  2000  forced  428  mismatches 0  ambiguous-timing pairs 0  max e5 13.5 ms
+Q seed 241 heavy kpmwh  frames  2000  forced  161  mismatches 0  ambiguous-timing pairs 0  max e5 15.4 ms
+Q seed 241 light kpmd   frames  2000  forced   68  mismatches 0  ambiguous-timing pairs 0  max e5 16.5 ms
+Q seed 241 light kpmwh  frames  2000  forced  118  mismatches 0  ambiguous-timing pairs 0  max e5 22.9 ms
+Q seed 242 heavy kpmd   frames  2000  forced  495  mismatches 0  ambiguous-timing pairs 0  max e5 13.3 ms
+Q seed 242 heavy kpmwh  frames  2000  forced  141  mismatches 0  ambiguous-timing pairs 0  max e5 14.9 ms
+Q seed 242 light kpmd   frames  2000  forced  115  mismatches 0  ambiguous-timing pairs 0  max e5 15.8 ms
+Q seed 242 light kpmwh  frames  2000  forced   95  mismatches 0  ambiguous-timing pairs 0  max e5 15.3 ms
+Q seed 243 heavy kpmd   frames  2000  forced  389  mismatches 0  ambiguous-timing pairs 0  max e5 19.0 ms
+Q seed 243 heavy kpmwh  frames  2000  forced  102  mismatches 0  ambiguous-timing pairs 0  max e5 17.2 ms
+Q seed 243 light kpmd   frames  2000  forced   60  mismatches 0  ambiguous-timing pairs 0  max e5 15.8 ms
+Q seed 243 light kpmwh  frames  2000  forced   77  mismatches 0  ambiguous-timing pairs 0  max e5 20.6 ms
+TOTAL release decisions 48000, mismatches 0, ambiguous-timing pairs 0

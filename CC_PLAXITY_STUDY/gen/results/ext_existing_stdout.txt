@@ -1,0 +1,73 @@
+ArmA cc_seed1.csv standard AUC cc/ar1/ewma/naive 0.928/0.912/0.923/0.912 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.011/0.199/0.018/0.012/0.295/0.031
+ArmA cc_seed2.csv standard AUC cc/ar1/ewma/naive 0.874/0.868/0.870/0.868 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.024/0.140/0.015/0.020/0.276/0.033
+ArmA cc_seed3.csv standard AUC cc/ar1/ewma/naive 0.887/0.881/0.888/0.879 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.015/0.179/0.034/0.030/0.310/0.035
+ArmA cc_seed4.csv standard AUC cc/ar1/ewma/naive 0.922/0.907/0.913/0.907 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.012/0.194/0.020/0.023/0.268/0.041
+ArmA cc_seed5.csv standard AUC cc/ar1/ewma/naive 0.903/0.904/0.902/0.904 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.014/0.212/0.022/0.013/0.301/0.030
+ArmB cc_perf_seed1.csv standard AUC cc/ar1/ewma/naive 0.773/0.754/0.756/0.754 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.232/0.232/0.599/0.575/0.216/0.640
+ArmB cc_perf_seed2.csv standard AUC cc/ar1/ewma/naive 0.819/0.769/0.752/0.769 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.161/0.150/0.698/0.690/0.164/0.712
+ArmB cc_perf_seed3.csv standard AUC cc/ar1/ewma/naive 0.844/0.809/0.814/0.809 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.115/0.117/0.642/0.637/0.188/0.667
+ArmB cc_perf_seed4.csv standard AUC cc/ar1/ewma/naive 0.834/0.805/0.807/0.805 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.138/0.138/0.605/0.584/0.203/0.637
+ArmB cc_perf_seed5.csv standard AUC cc/ar1/ewma/naive 0.797/0.778/0.738/0.778 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.203/0.203/0.613/0.595/0.164/0.669
+ArmC cc_perfgov_seed1.csv standard AUC cc/ar1/ewma/naive 0.870/0.857/0.864/0.857 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.146/0.146/0.523/0.487/0.195/0.624
+ArmC cc_perfgov_seed2.csv standard AUC cc/ar1/ewma/naive 0.763/0.758/0.781/0.758 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.158/0.158/0.537/0.510/0.141/0.607
+ArmC cc_perfgov_seed3.csv standard AUC cc/ar1/ewma/naive 0.847/0.828/0.860/0.828 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.201/0.203/0.378/0.315/0.251/0.488
+ArmC cc_perfgov_seed4.csv standard AUC cc/ar1/ewma/naive 0.847/0.841/0.850/0.841 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.193/0.193/0.523/0.479/0.188/0.608
+ArmC cc_perfgov_seed5.csv standard AUC cc/ar1/ewma/naive 0.804/0.793/0.825/0.793 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.185/0.188/0.454/0.412/0.227/0.561
+G1 G1_lidar_mem_held_s11.csv standard AUC cc/ar1/ewma/naive 0.833/0.809/0.823/0.809 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.209/0.209/0.558/0.603/0.096/0.541
+G1 G1_lidar_mem_held_s11.csv scene_disjoint AUC cc/ar1/ewma/naive 0.817/0.808/0.823/0.809 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.213/0.213/0.572/0.589/0.095/0.539
+G1 G1_lidar_mem_held_s12.csv standard AUC cc/ar1/ewma/naive 0.852/0.839/0.842/0.839 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.146/0.146/0.519/0.537/0.085/0.479
+G1 G1_lidar_mem_held_s12.csv scene_disjoint AUC cc/ar1/ewma/naive 0.841/0.842/0.841/0.839 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.168/0.164/0.540/0.526/0.090/0.479
+G1 G1_lidar_mem_held_s13.csv standard AUC cc/ar1/ewma/naive 0.810/0.769/0.792/0.769 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.131/0.131/0.542/0.567/0.113/0.487
+G1 G1_lidar_mem_held_s13.csv scene_disjoint AUC cc/ar1/ewma/naive 0.804/0.769/0.792/0.770 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.122/0.122/0.552/0.590/0.115/0.492
+G1 G1_lidar_mem_held_s14.csv standard AUC cc/ar1/ewma/naive 0.812/0.781/0.806/0.781 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.204/0.204/0.561/0.514/0.103/0.528
+G1 G1_lidar_mem_held_s14.csv scene_disjoint AUC cc/ar1/ewma/naive 0.808/0.778/0.806/0.782 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.212/0.212/0.584/0.534/0.106/0.536
+G1 G1_lidar_mem_held_s15.csv standard AUC cc/ar1/ewma/naive 0.832/0.805/0.838/0.805 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.132/0.132/0.517/0.538/0.073/0.414
+G1 G1_lidar_mem_held_s15.csv scene_disjoint AUC cc/ar1/ewma/naive 0.806/0.807/0.844/0.804 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.145/0.136/0.525/0.546/0.071/0.416
+G2 G2_synth_cpu_held_s21.csv standard AUC cc/ar1/ewma/naive 0.681/0.667/0.673/0.667 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.099/0.109/0.663/0.641/0.168/0.705
+G2 G2_synth_cpu_held_s22.csv standard AUC cc/ar1/ewma/naive 0.792/0.766/0.766/0.766 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.120/0.126/0.631/0.622/0.197/0.666
+G2 G2_synth_cpu_held_s23.csv standard AUC cc/ar1/ewma/naive 0.821/0.800/0.816/0.800 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.143/0.149/0.623/0.586/0.189/0.649
+G3 G3_pc_synth_mem_s31.csv standard AUC cc/ar1/ewma/naive 0.695/0.660/0.684/0.660 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.143/0.143/0.242/0.238/0.158/0.250
+G3 G3_pc_synth_mem_s32.csv standard AUC cc/ar1/ewma/naive 0.682/0.650/0.683/0.650 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.107/0.107/0.149/0.151/0.194/0.144
+G3 G3_pc_synth_mem_s33.csv standard AUC cc/ar1/ewma/naive 0.760/0.713/0.766/0.713 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.094/0.094/0.159/0.158/0.174/0.161
+G4x G4x_lidar_mem_schedutil_s41.csv standard AUC cc/ar1/ewma/naive 0.884/0.860/0.883/0.861 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.030/0.030/0.058/0.088/0.305/0.048
+G4x G4x_lidar_mem_schedutil_s41.csv scene_disjoint AUC cc/ar1/ewma/naive 0.882/0.860/0.882/0.857 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.027/0.027/0.055/0.084/0.295/0.048
+G4x G4x_lidar_mem_schedutil_s42.csv standard AUC cc/ar1/ewma/naive 0.825/0.793/0.801/0.793 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.053/0.053/0.045/0.049/0.278/0.052
+G4x G4x_lidar_mem_schedutil_s42.csv scene_disjoint AUC cc/ar1/ewma/naive 0.818/0.792/0.802/0.789 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.058/0.058/0.040/0.044/0.272/0.049
+G8a G8a_c_lidar_perf_s51.csv standard AUC cc/ar1/ewma/naive 0.732/0.957/0.959/0.949 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.591/0.103/0.059/0.078/0.059/0.020
+G8a G8a_c_lidar_perf_s51.csv scene_disjoint AUC cc/ar1/ewma/naive 0.684/0.945/0.955/0.943 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.559/0.079/0.047/0.074/0.058/0.021
+D:\RTKK\CC_PLAXITY_STUDY\cc_plaxity.py:152: RuntimeWarning: invalid value encountered in divide
+  post /= post.sum(1, keepdims=True)
+G8a G8a_c_lidar_perf_s52.csv standard AUC cc/ar1/ewma/naive 0.860/0.940/0.944/0.937 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.376/0.096/0.095/0.158/0.092/0.067
+D:\RTKK\CC_PLAXITY_STUDY\cc_plaxity.py:152: RuntimeWarning: invalid value encountered in divide
+  post /= post.sum(1, keepdims=True)
+D:\RTKK\CC_PLAXITY_STUDY\cc_plaxity.py:152: RuntimeWarning: invalid value encountered in divide
+  post /= post.sum(1, keepdims=True)
+D:\RTKK\CC_PLAXITY_STUDY\cc_plaxity.py:152: RuntimeWarning: invalid value encountered in divide
+  post /= post.sum(1, keepdims=True)
+G8a G8a_c_lidar_perf_s52.csv scene_disjoint AUC cc/ar1/ewma/naive 0.815/0.939/0.943/0.933 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.348/0.094/0.098/0.146/0.094/0.080
+D:\RTKK\CC_PLAXITY_STUDY\cc_plaxity.py:152: RuntimeWarning: invalid value encountered in divide
+  post /= post.sum(1, keepdims=True)
+G8a G8a_c_lidar_perf_s53.csv standard AUC cc/ar1/ewma/naive 0.835/0.897/0.905/0.890 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.360/0.108/0.072/0.210/0.100/0.120
+D:\RTKK\CC_PLAXITY_STUDY\cc_plaxity.py:152: RuntimeWarning: invalid value encountered in divide
+  post /= post.sum(1, keepdims=True)
+D:\RTKK\CC_PLAXITY_STUDY\cc_plaxity.py:152: RuntimeWarning: invalid value encountered in divide
+  post /= post.sum(1, keepdims=True)
+G8a G8a_c_lidar_perf_s53.csv scene_disjoint AUC cc/ar1/ewma/naive 0.834/0.898/0.901/0.892 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.328/0.120/0.073/0.197/0.101/0.116
+G8a G8a_c_lidar_perf_s54.csv standard AUC cc/ar1/ewma/naive 0.825/0.956/0.958/0.953 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.535/0.119/0.054/0.155/0.075/0.083
+G8a G8a_c_lidar_perf_s54.csv scene_disjoint AUC cc/ar1/ewma/naive 0.863/0.954/0.955/0.952 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.416/0.115/0.058/0.151/0.073/0.082
+D:\RTKK\CC_PLAXITY_STUDY\cc_plaxity.py:152: RuntimeWarning: invalid value encountered in divide
+  post /= post.sum(1, keepdims=True)
+G8a G8a_c_lidar_perf_s55.csv standard AUC cc/ar1/ewma/naive 0.900/0.940/0.910/0.939 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.416/0.117/0.417/0.313/0.085/0.246
+D:\RTKK\CC_PLAXITY_STUDY\cc_plaxity.py:152: RuntimeWarning: invalid value encountered in divide
+  post /= post.sum(1, keepdims=True)
+D:\RTKK\CC_PLAXITY_STUDY\cc_plaxity.py:152: RuntimeWarning: invalid value encountered in divide
+  post /= post.sum(1, keepdims=True)
+D:\RTKK\CC_PLAXITY_STUDY\cc_plaxity.py:152: RuntimeWarning: invalid value encountered in divide
+  post /= post.sum(1, keepdims=True)
+G8a G8a_c_lidar_perf_s55.csv scene_disjoint AUC cc/ar1/ewma/naive 0.889/0.938/0.916/0.939 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.396/0.116/0.440/0.313/0.080/0.239
+G8b G8b_pc_c_lidar_s61.csv standard AUC cc/ar1/ewma/naive 0.787/0.768/0.786/0.768 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.066/0.066/0.142/0.169/0.105/0.121
+G8b G8b_pc_c_lidar_s61.csv scene_disjoint AUC cc/ar1/ewma/naive 0.779/0.767/0.789/0.766 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.080/0.080/0.134/0.168/0.107/0.125
+G8b G8b_pc_c_lidar_s62.csv standard AUC cc/ar1/ewma/naive 0.814/0.769/0.823/0.769 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.089/0.089/0.071/0.063/0.181/0.058
+G8b G8b_pc_c_lidar_s62.csv scene_disjoint AUC cc/ar1/ewma/naive 0.821/0.781/0.830/0.773 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.102/0.102/0.080/0.071/0.183/0.060
+G8b G8b_pc_c_lidar_s63.csv standard AUC cc/ar1/ewma/naive 0.870/0.885/0.927/0.886 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.139/0.139/0.080/0.040/0.164/0.081
+G8b G8b_pc_c_lidar_s63.csv scene_disjoint AUC cc/ar1/ewma/naive 0.871/0.885/0.926/0.885 K3ECE cc/ccsc/lr/lriso/naive/ar1 0.140/0.140/0.070/0.050/0.165/0.087

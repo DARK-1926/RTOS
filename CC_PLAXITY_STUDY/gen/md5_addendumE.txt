@@ -1,0 +1,16 @@
+d4bca0a875be7eed666b220433ed5978 *kp_methods.py
+a706405fc87f09ce65f85facde80c423 *kp_export.py
+d9d64f5010e23e9f1fb664a97ae15eef *sweep_analysis.py
+70a71ecd8de839441bc77c241c1286fa *info_limit.py
+be46241ae141b3b4b9e466da1ef95955 *aci_actionable.py
+21b395c079994074a7415d613496a2ab *toba_baseline.py
+3083cb8c29acf1f6f7981f90e5529184 *../ros2/cc_lidar_ros/src/lidar_ros.cpp
+4c1dfbba9e11eb79f4646c140b48127e *../PROTOCOL_GENERALIZATION.md
+Sat Nov  7 11:27:01 IST 2026
+e98a1693be8b8ed42e8cebafdd35be34 *g11_analysis.py
+NOTE: g11_analysis.py re-frozen 11:31 IST (added the actionable-target ACI rows that E2/E3 require); still no G11 data exists.
+ba3635a0b57ae2f23ddec9be70006111 *../ros2/pilot.sh
+5a24a78ce955cad949bc12f8af93ef6d *../ros2/run_g11.sh
+NOTE: run_g11.sh: 'set -u' moved after conda activation (first launch aborted before any frame; no data). Sat Nov  7 11:44:40 IST 2026
+3ced1333b97709040bd353095ef25b50 *kp_monitor.c
+NOTE: kp_monitor.c: added #define M_SQRT2 fallback (board gcc with _POSIX_C_SOURCE hid it); no other change. Sat Nov  7 12:22:39 IST 2026

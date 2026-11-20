@@ -1,0 +1,31 @@
+--- EUROC seed 181: n_val=2673 D=87.0 miss=0.256 K3 miss=0.545 KPT prior R2=0.142; telemetry us p99 3.39
+
+===== Addendum H part2_s181 =====
+H1 worst100 BG-ACI < ACI:                 1/1 (rule 2/1) -> FAIL
+H2 worst100 BG-ACI < ACI at matched FPR:  1/1 (rule 2/1) -> FAIL
+H3 BG-ACI one-sided guarantee, both alpha: 1/1 (rule 1/1) -> PASS
+H4 BG-ACI FPR < Toba-eq ACI FPR:          1/1 (rule 1/1) -> PASS
+H5 K2 unwarned BG-ACI < ACI:              1/1 (rule 2/1) -> FAIL
+H6 replication of Addendum G:
+  G1 ECE unseen K3 KPT < KP:           0/1 (rule 2/1) -> FAIL
+  G2 post-switch AUROC KPT > KP:       0/1 (rule 2/1) -> FAIL
+  G3 actionable AUROC KPT >= KP-0.005: 0/1 (rule 2/1) -> FAIL
+  G4 actionable KPT > Toba, CI > 0:    1/1 (rule 1/1) -> PASS
+  G5 any-time KPT >= Toba - 0.005:     1/1 (rule 2/1) -> FAIL
+  G6 ACI guarantee both alpha:         1/1 (rule 1/1) -> PASS
+  G7 ACI FPR KPT < Toba:               1/1 (rule 1/1) -> PASS
+  G8 worst100 KPT < KP:                0/1 (rule 2/1) -> FAIL
+  G9 telemetry p99 < 5 us:             1/1 (rule 1/1) -> PASS
+
+       cond   miss  auc_act  aci_unw  bg_unw  aci_ub  aci_fpr  bg_fpr  ref_fpr  worst100  bg_worst100  ref_worst100  aci_unw_K2  bg_unw_K2
+seed                                                                                                                                      
+181   EUROC  0.256    0.792    0.049   0.045   0.062    0.338   0.362    0.355      0.12         0.09          0.11       0.072       0.06
+Toba-eq ACI FPR: seed | 181    0.532
+
+means by method:
+                     auc_rel  auc_act  auc_any  recall_fpr10  lead_ms_fpr10  aci_fpr  bg_fpr  worst100  bg_worst100
+cond  method                                                                                                       
+EUROC EWMA-CP+stack    0.878    0.880    0.999         0.994         52.751    0.218   0.237      0.13         0.10
+      KP+stack         0.878    0.880    0.999         0.996         51.830    0.217   0.233      0.11         0.10
+      KPT+stack        0.823    0.792    0.999         0.997         11.890    0.338   0.362      0.12         0.09
+      Toba-eq          0.500    0.553    1.000         1.000         11.085    0.532   0.487      0.16         0.09

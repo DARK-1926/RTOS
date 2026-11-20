@@ -1,0 +1,9 @@
+arm,hypothesis,seeds,passed
+A: schedutil (shipping DVFS),H1,5,5
+A: schedutil (shipping DVFS),H2,5,5
+A: schedutil (shipping DVFS),H3,5,4
+A: schedutil (shipping DVFS),kill_rule_triggered,5,0
+B: clock held at 2.016 GHz,H1,5,5
+B: clock held at 2.016 GHz,H2,5,3
+B: clock held at 2.016 GHz,H3,5,5
+B: clock held at 2.016 GHz,kill_rule_triggered,5,0

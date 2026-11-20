@@ -1,0 +1,22 @@
+ec487fc9ef76787ad1f1dd9791a80fb3 *kp_methods.py
+caeabaf206ee68b5e595e8acdacbfbd1 *kp_cl_export.py
+c4378eebad6bd3557ed4c48b90d030dc *g12_analysis.py
+ed213033cfab9653c7cb8b9ba7476e49 *../ros2/cc_lidar_ros/src/lidar_ros_cl.cpp
+edafb09421f3b6750a173221221ed375 *../ros2/cc_lidar_ros/CMakeLists.txt
+13ac7db804b3e89972d95b34190bc43f *../ros2/g12_phase.sh
+a536a37cfcacd4d7a584fa5b73562e72 *../PROTOCOL_GENERALIZATION.md
+Sat Nov  7 12:41:17 IST 2026
+78d6e79c42efe42a0fc0e508930b7cc5 *../ros2/run_g12.sh
+NOTE: the line-ending script had CRLF endings (written on Windows); converted to LF with content unchanged, md5 above. The first launch executed no frames (no data). Sat Nov  7 12:42:29 IST 2026
+NOTE (Sat Nov  7 12:48:53 IST 2026): driver fixed. adb pull/push got /d/... local paths that Windows adb cannot use, so the export failed and the validation runs aborted at start ('bad params', 0 frames processed). Seed-121 calibration (3000 frames) had completed normally beforehand and is kept. The aborted validation files were deleted. Driver now uses D:/ paths and stops on any pull, export or push failure.
+7e94e27b3ef46bc43cadb435d2c30df1 *../ros2/g12_driver.sh
+INCIDENT (Sat Nov  7 13:09:05 IST 2026): a driver started before the path fix was not terminated by the tool's stop command; its bash process
+survived on Windows. It blocked waiting for seed 121's validation to finish, then ran seeds 122/123 IN PARALLEL with the
+correct driver. Two pipelines ran concurrently and wrote the same files: seed 122 calibration reported 3000 frames in about 1 minute.
+Action: all seed-122/123 data were deleted unanalysed (board and laptop). Seed 121 is kept: its runs were executed once, in sequence
+(about 3.4 min per 2000 frames at 100 ms, one rc per log, params md5 e442bb40 identical on board and laptop), and the
+second driver was only waiting during them. Driver now takes a lock and skips completed seeds. Seeds 122/123 are re-run from scratch.
+INCIDENT (Sat Nov  7 14:45:22 IST 2026): the board rebooted (power/USB) during the seed-122 random run (1000/2000 frames, moved to g12/interrupted/, not analysed). The seed-122 none/kp/toba runs had completed (rc=0, 2000 frames each) and are kept. Only the random run was re-run, with the same seed, schedule and p = 0.8547. Then seed 123 runs.
+INCIDENT (Sat Nov  7 14:46:38 IST 2026): the board rebooted (power/USB) during the seed-122 random run (1000/2000 frames, discarded to g12/interrupted/). The seed-122 none/kp/toba runs had completed (rc=0, 2000 frames each) and are kept. Only the random run was re-run, with the same seed, schedule and p = 0.8547. Then seed 123 runs.
+INCIDENT (Sat Nov  7 14:51:55 IST 2026): seed 123 ran under two concurrent drivers. Driver 2 survived the board reboot by looping on adb errors; I removed its lock wrongly, believing it dead, and started driver 3. Its logs show doubled rc and 2000 frames x 4 in 3 min. All seed-123 data moved to discarded_s123/ (board and laptop), not analysed. Seed 123 re-run with a single driver after verifying 0 driver processes.
+NOTE (Sat Nov  7 15:15:41 IST 2026): analysis input fix. The driver's final 'adb pull <dir>' into an existing folder nested it, and the copy step then took the OLD discarded seed-123 files. Detected by 1600+ incomplete frames per run and confirmed by md5. Clean seed-123 files were pulled directly from the board, md5-verified (board == laptop), and G12 re-analysed.

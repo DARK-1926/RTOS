@@ -1,0 +1,62 @@
+stage0_lidar stage0_lidar_D35
+stage0_lidar stage0_lidar_D50
+stage0_lidar stage0_lidar_D80
+stage0_pilot stage0_pilot_D30
+stage0_pilot stage0_pilot_D35
+stage0_hclock stage0_hclock_D28
+stage0_hclock stage0_hclock_D32
+ArmA cc_seed1.csv
+ArmA cc_seed2.csv
+ArmA cc_seed3.csv
+ArmA cc_seed4.csv
+ArmA cc_seed5.csv
+ArmB cc_perf_seed1.csv
+ArmB cc_perf_seed2.csv
+ArmB cc_perf_seed3.csv
+ArmB cc_perf_seed4.csv
+ArmB cc_perf_seed5.csv
+ArmC cc_perfgov_seed1.csv
+ArmC cc_perfgov_seed2.csv
+ArmC cc_perfgov_seed3.csv
+ArmC cc_perfgov_seed4.csv
+ArmC cc_perfgov_seed5.csv
+G1 G1_lidar_mem_held_s11.csv
+G1 G1_lidar_mem_held_s12.csv
+G1 G1_lidar_mem_held_s13.csv
+G1 G1_lidar_mem_held_s14.csv
+G1 G1_lidar_mem_held_s15.csv
+G2 G2_synth_cpu_held_s21.csv
+G2 G2_synth_cpu_held_s22.csv
+G2 G2_synth_cpu_held_s23.csv
+G3 G3_pc_synth_mem_s31.csv
+G3 G3_pc_synth_mem_s32.csv
+G3 G3_pc_synth_mem_s33.csv
+G4x G4x_lidar_mem_schedutil_s41.csv
+G4x G4x_lidar_mem_schedutil_s42.csv
+G8a G8a_c_lidar_perf_s51.csv
+D:\RTKK\CC_PLAXITY_STUDY\cc_plaxity.py:152: RuntimeWarning: invalid value encountered in divide
+  post /= post.sum(1, keepdims=True)
+G8a G8a_c_lidar_perf_s52.csv
+D:\RTKK\CC_PLAXITY_STUDY\cc_plaxity.py:152: RuntimeWarning: invalid value encountered in divide
+  post /= post.sum(1, keepdims=True)
+D:\RTKK\CC_PLAXITY_STUDY\cc_plaxity.py:152: RuntimeWarning: invalid value encountered in divide
+  post /= post.sum(1, keepdims=True)
+G8a G8a_c_lidar_perf_s53.csv
+G8a G8a_c_lidar_perf_s54.csv
+D:\RTKK\CC_PLAXITY_STUDY\cc_plaxity.py:152: RuntimeWarning: invalid value encountered in divide
+  post /= post.sum(1, keepdims=True)
+G8a G8a_c_lidar_perf_s55.csv
+G8b G8b_pc_c_lidar_s61.csv
+G8b G8b_pc_c_lidar_s62.csv
+G8b G8b_pc_c_lidar_s63.csv
+G10a open_s71.csv
+G10a open_s72.csv
+G10a open_s73.csv
+G10a open_s74.csv
+G10a open_s75.csv
+G10b open_s91.csv
+G10b open_s92.csv
+G10b open_s93.csv
+G10s cc_g10s_seed101.csv
+G10s cc_g10s_seed102.csv
+G10s cc_g10s_seed103.csv

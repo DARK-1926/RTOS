@@ -1,0 +1,31 @@
+
+===== Addendum O (O_pilot, seeds [229]) =====
+O1 latch-up: legacy kp degraded >= 1.5 x none would-alarm  0/1 (rule 1/1) -> FAIL
+O2 fix: kpm degrades fewer frames than legacy kp           1/1 (rule 1/1) -> PASS
+O3 no latch: kpm degraded <= 1.5 x none would-alarm        1/1 (rule 1/1) -> PASS
+O4 kpm degrades fewer frames than toba                     0/1 (rule 1/1) -> FAIL
+O5a delivered misses: kpm < none                           1/1 (rule 1/1) -> PASS
+O5b delivered misses: kpm <= random (same budget)          1/1 (rule 1/1) -> PASS
+O6 long-run guarantee, kpm and kpmwh                       2/2 (rule 2/2) -> PASS
+O7 live (4,20) window guarantee under kpmwh                1/1 (rule 1/1) -> PASS
+O8 inline cost p99 < 100 us under kpmwh                    1/1 (rule 1/1) -> PASS
+
+per seed and policy:
+               n  not_done   miss  miss_K3  degraded  degraded_K0  alarm_K0  unwarned     ub  max_win20  forced  us_p50  us_p99
+seed policy                                                                                                                    
+229  none    408         0  0.267    0.791     0.000        0.000     0.000     0.007  0.183          4   0.000   9.925  16.596
+     kp      408         0  0.081    0.239     0.480        0.000     0.000     0.017  0.183          9   0.000   9.335  15.081
+     kpm     409         0  0.061    0.157     0.399        0.007     0.007     0.007  0.182          7   0.000   9.720  14.783
+     kpmwh   408         0  0.059    0.142     0.336        0.000     0.000     0.012  0.183          4   0.027   9.510  16.304
+     toba    408         0  0.218    0.627     0.044        0.000     0.000     0.196  0.183         17   0.000   9.930  17.471
+     random  408         0  0.127    0.388     0.404        0.453     0.453     0.115  0.183         11   0.000   9.150  17.420
+
+means:
+         miss  miss_K3  degraded  degraded_K0  unwarned  max_win20  forced  us_p99
+policy                                                                            
+none    0.267    0.791     0.000        0.000     0.007        4.0   0.000  16.596
+kp      0.081    0.239     0.480        0.000     0.017        9.0   0.000  15.081
+kpm     0.061    0.157     0.399        0.007     0.007        7.0   0.000  14.783
+kpmwh   0.059    0.142     0.336        0.000     0.012        4.0   0.027  16.304
+toba    0.218    0.627     0.044        0.000     0.196       17.0   0.000  17.471
+random  0.127    0.388     0.404        0.453     0.115       11.0   0.000  17.420

@@ -1,0 +1,7 @@
+c64cb3e2cd350c43113b0cf47ac4959a *lidar_cl.c
+636b3d7912cd35df8fa0c7ed6f0c1bbc *ext_methods.py
+b73f527851b6bfc07a6a5091f3ea8bdc *ext_analysis.py
+de51129211abfbc7c1c8ec3a67601132 *export_tables.py
+21b395c079994074a7415d613496a2ab *toba_baseline.py
+d8cdf8918f1c2238372dbb7568d7347c *toba_eq_alarms.py
+# note 2026-11-07: after all G10 analyses, toba_eq_alarms.py got a path-only change (input_traces fallback); new md5 1ac3bb3d363b42a81c5ad3ccc194440a

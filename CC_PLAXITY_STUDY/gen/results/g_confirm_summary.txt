@@ -1,0 +1,27 @@
+--- G13c seed 141: n_val=2362 D=25.0 miss=0.241 K3 miss=0.538 KPT prior R2=0.387; critical-path telemetry us: median 0.94, p99 1.88
+--- G13c seed 142: n_val=2405 D=25.0 miss=0.277 K3 miss=0.504 KPT prior R2=0.321; critical-path telemetry us: median 0.89, p99 1.77
+--- G13c seed 143: n_val=2364 D=25.0 miss=0.196 K3 miss=0.572 KPT prior R2=0.203; critical-path telemetry us: median 0.78, p99 1.82
+--- G14 seed 151: n_val=2639 D=27.0 miss=0.471 K3 miss=0.802 KPT prior R2=0.420; critical-path telemetry us: median 1.30, p99 3.49
+--- G14 seed 152: n_val=2601 D=28.0 miss=0.311 K3 miss=0.736 KPT prior R2=0.450; critical-path telemetry us: median 1.30, p99 3.28
+--- G14 seed 153: n_val=2591 D=27.0 miss=0.314 K3 miss=0.790 KPT prior R2=0.555; critical-path telemetry us: median 1.30, p99 3.39
+
+G1 ECE on unseen K3, KPT < KP:                 5/6 (rule >= 5/6) -> PASS
+G2 release AUROC first 15 frames after switch: 6/6 (rule >= 5/6) -> PASS
+G3 actionable AUROC KPT >= KP - 0.005:         6/6 (rule >= 5/6) -> PASS
+G4 actionable AUROC KPT > Toba, CI > 0:        6/6 (rule 6/6)  -> PASS
+G5 any-time AUROC KPT >= Toba - 0.005:         6/6 (rule >= 5/6) -> PASS
+G6 ACI one-sided guarantee (both alphas):      6/6 (rule 6/6)  -> PASS
+G7 ACI price FPR KPT < Toba (alpha 0.05):      6/6 (rule 6/6)  -> PASS
+G8 worst 100-frame unwarned rate KPT < KP:     3/6 (rule >= 4/6) -> FAIL
+G9 critical-path telemetry p99 < 5 us:         6/6 (rule 6/6)  -> PASS
+
+                    auc_rel  auc_act  auc_any  auc_rel_switch  ece_rel_K3  recall_fpr10  lead_ms_fpr10  aci_fpr  aci_fpr_02  worst100
+cond method                                                                                                                          
+G13c EWMA-CP+stack    0.777    0.801    0.972           0.780       0.350         0.987          9.652    0.356       0.522     0.173
+     KP+stack         0.778    0.808    0.996           0.784       0.277         0.986          9.514    0.352       0.512     0.180
+     KPT+stack        0.802    0.823    0.997           0.852       0.087         0.990         10.633    0.348       0.499     0.197
+     Toba-eq          0.500    0.610    0.997           0.500       0.385         0.993          3.711    0.559       0.819     0.123
+G14  EWMA-CP+stack    0.858    0.874    0.977           0.838       0.197         0.997         15.023    0.310       0.432     0.173
+     KP+stack         0.858    0.879    0.998           0.843       0.149         0.996         14.989    0.306       0.434     0.183
+     KPT+stack        0.873    0.889    0.999           0.891       0.100         0.995         16.489    0.292       0.421     0.173
+     Toba-eq          0.500    0.667    1.000           0.500       0.643         0.999          3.905    0.519       0.775     0.120

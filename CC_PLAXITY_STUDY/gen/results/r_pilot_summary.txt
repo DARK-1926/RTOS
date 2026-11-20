@@ -1,0 +1,15 @@
+
+===== Addendum R (R_pilot, seeds [259]) =====
+R1 replication, base: level 2 late at 6 ms > 0.5%, per seed                                  1/1 (rule >=0/1) -> PASS
+R2 idle priority for the background load reduces late level-2 frames at 6 ms, per seed       1/1 (rule 1/1) -> PASS
+R3 prediction: even so, A fails at 6 ms (idle arm, pooled late > 0.5%)                       1/1 (rule 1/1) -> PASS
+R4 idle arm, 10 ms: pooled late <= 0.15% (the Addendum Q base rate)                          1/1 (rule 1/1) -> PASS
+base pooled, 6 ms: 44 late of 380 (11.579%); 95% upper bound 14.637%; worst late per 20-window 6
+base pooled, 10 ms: 2 late of 380 (0.526%); 95% upper bound 1.647%; worst late per 20-window 1
+idle pooled, 6 ms: 9 late of 371 (2.426%); 95% upper bound 4.195%; worst late per 20-window 4
+idle pooled, 10 ms: 0 late of 371 (0.000%); 95% upper bound 0.804%; worst late per 20-window 0
+
+per seed and arm:
+ seed  arm   n  not_done  e5_p50  e5_p99  e5_max  late_6  frac_6  cp95_6  win20_6  late_10  frac_10  cp95_10  win20_10
+  259 base 380         0  1.5718  9.4939 20.6355      44  0.1158  0.1464        6        2   0.0053   0.0165         1
+  259 idle 371         0  1.5370  6.6510  9.5034       9  0.0243  0.0419        4        0   0.0000   0.0080         0

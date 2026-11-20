@@ -1,0 +1,10 @@
+frame 0/5000 K=1 e2e=456.5 ms
+frame 500/5000 K=0 e2e=26.4 ms
+frame 1000/5000 K=1 e2e=31.3 ms
+frame 1500/5000 K=2 e2e=35.1 ms
+frame 2000/5000 K=2 e2e=33.5 ms
+frame 2500/5000 K=2 e2e=24.1 ms
+frame 3000/5000 K=0 e2e=26.6 ms
+frame 3500/5000 K=0 e2e=17.2 ms
+frame 4000/5000 K=0 e2e=19.7 ms
+frame 4500/5000 K=1 e2e=23.3 ms

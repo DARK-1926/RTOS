@@ -1,0 +1,133 @@
+  post /= post.sum(1, keepdims=True)
+  post /= post.sum(1, keepdims=True)
+  post /= post.sum(1, keepdims=True)
+  post /= post.sum(1, keepdims=True)
+  post /= post.sum(1, keepdims=True)
+  post /= post.sum(1, keepdims=True)
+  post /= post.sum(1, keepdims=True)
+  post /= post.sum(1, keepdims=True)
+  post /= post.sum(1, keepdims=True)
+  post /= post.sum(1, keepdims=True)
+  post /= post.sum(1, keepdims=True)
+  post /= post.sum(1, keepdims=True)
+===== G1: primary (frozen run_unoq)
+                        file     D  n_val  miss_rate  H1_auroc_diff  H1_lo  H1_pass  H2_brier_diff  H2_hi  H2_pass  H3_ece_cc  H3_ece_lr  H3_pass
+0  G1_lidar_mem_held_s11.csv  90.0   1600      0.277          0.331  0.270     True         -0.012  0.013    False      0.209      0.558     True
+1  G1_lidar_mem_held_s12.csv  89.0   1600      0.293          0.349  0.310     True         -0.017  0.003    False      0.146      0.519     True
+2  G1_lidar_mem_held_s13.csv  89.0   1600      0.261          0.307  0.250     True         -0.004  0.020    False      0.131      0.542     True
+3  G1_lidar_mem_held_s14.csv  88.0   1600      0.339          0.311  0.259     True         -0.030 -0.011     True      0.204      0.561     True
+4  G1_lidar_mem_held_s15.csv  89.0   1600      0.456          0.328  0.281     True         -0.064 -0.033     True      0.132      0.517     True
+KILL (H3 fails on >=3 seeds): False
+===== G2: primary (frozen run_unoq)
+                        file     D  n_val  miss_rate  H1_auroc_diff  H1_lo  H1_pass  H2_brier_diff  H2_hi  H2_pass  H3_ece_cc  H3_ece_lr  H3_pass
+0  G2_synth_cpu_held_s21.csv  32.0   2000      0.232          0.177  0.090     True         -0.003  0.007    False      0.099      0.663     True
+1  G2_synth_cpu_held_s22.csv  32.0   2000      0.347          0.288  0.225     True         -0.022 -0.007     True      0.120      0.631     True
+2  G2_synth_cpu_held_s23.csv  32.0   2000      0.351          0.317  0.269     True         -0.011  0.002    False      0.143      0.623     True
+KILL (H3 fails on >=3 seeds): False
+===== G3: primary (frozen run_unoq)
+                      file     D  n_val  miss_rate  H1_auroc_diff  H1_lo  H1_pass  H2_brier_diff  H2_hi  H2_pass  H3_ece_cc  H3_ece_lr  H3_pass
+0  G3_pc_synth_mem_s31.csv  33.0   2000      0.200          0.192  0.146     True         -0.017 -0.007     True      0.143      0.242     True
+1  G3_pc_synth_mem_s32.csv  38.0   2000      0.216          0.180  0.130     True         -0.016 -0.005     True      0.107      0.149     True
+2  G3_pc_synth_mem_s33.csv  36.0   2000      0.166          0.258  0.207     True         -0.003  0.007    False      0.094      0.159     True
+KILL (H3 fails on >=3 seeds): False
+===== G4x: primary (frozen run_unoq)
+                              file      D  n_val  miss_rate  H1_auroc_diff  H1_lo  H1_pass  H2_brier_diff  H2_hi  H2_pass  H3_ece_cc  H3_ece_lr  H3_pass
+0  G4x_lidar_mem_schedutil_s41.csv  111.0   1600      0.119          0.379  0.339     True         -0.020 -0.008     True      0.030      0.058     True
+1  G4x_lidar_mem_schedutil_s42.csv  112.0   1600      0.088          0.321  0.272     True         -0.012  0.000    False      0.053      0.045    False
+KILL (H3 fails on >=3 seeds): False
+===== G8a: primary (frozen run_unoq)
+                       file     D  n_val  miss_rate  H1_auroc_diff  H1_lo  H1_pass  H2_brier_diff  H2_hi  H2_pass  H3_ece_cc  H3_ece_lr  H3_pass
+0  G8a_c_lidar_perf_s51.csv  21.0   2000      0.306          0.229  0.163     True          0.060  0.084    False      0.591      0.059    False
+1  G8a_c_lidar_perf_s52.csv  20.0   2000      0.154          0.357  0.285     True          0.016  0.034    False      0.376      0.095    False
+2  G8a_c_lidar_perf_s53.csv  18.0   2000      0.322          0.332  0.278     True          0.017  0.025    False      0.360      0.072    False
+3  G8a_c_lidar_perf_s54.csv  19.0   2000      0.216          0.325  0.271     True          0.023  0.043    False      0.535      0.054    False
+4  G8a_c_lidar_perf_s55.csv  16.0   2000      0.420          0.398  0.357     True         -0.103 -0.069     True      0.416      0.417     True
+KILL (H3 fails on >=3 seeds): True
+===== G8b: primary (frozen run_unoq)
+                     file     D  n_val  miss_rate  H1_auroc_diff  H1_lo  H1_pass  H2_brier_diff  H2_hi  H2_pass  H3_ece_cc  H3_ece_lr  H3_pass
+0  G8b_pc_c_lidar_s61.csv  12.0   2000      0.134          0.283  0.227     True         -0.012 -0.004     True      0.066      0.142     True
+1  G8b_pc_c_lidar_s62.csv  14.0   2000      0.014          0.311  0.223     True         -0.002 -0.000     True      0.089      0.071    False
+2  G8b_pc_c_lidar_s63.csv  13.0   2000      0.238          0.368  0.320     True         -0.049 -0.026     True      0.139      0.080    False
+KILL (H3 fails on >=3 seeds): False
+
+===== per run (D = p85)
+cond                            file     D  K3_miss  H1_auroc_diff  H1_pass  eceK3_cc  eceK3_lr  eceK3_gbm  eceK3_naive  auroc_cc  auroc_naive  H3_pass
+  G1       G1_lidar_mem_held_s11.csv  90.0    0.910          0.329     True     0.209     0.558      0.541        0.096     0.833        0.809     True
+  G1       G1_lidar_mem_held_s12.csv  89.0    0.886          0.349     True     0.146     0.519      0.426        0.085     0.852        0.839     True
+  G1       G1_lidar_mem_held_s13.csv  89.0    0.872          0.306     True     0.131     0.542      0.524        0.113     0.810        0.769     True
+  G1       G1_lidar_mem_held_s14.csv  88.0    0.934          0.308     True     0.204     0.561      0.466        0.103     0.812        0.781     True
+  G1       G1_lidar_mem_held_s15.csv  89.0    0.900          0.329     True     0.132     0.517      0.500        0.073     0.832        0.805     True
+  G2       G2_synth_cpu_held_s21.csv  32.0    0.889          0.175     True     0.099     0.663      0.725        0.168     0.681        0.667     True
+  G2       G2_synth_cpu_held_s22.csv  32.0    0.900          0.286     True     0.120     0.631      0.605        0.197     0.792        0.766     True
+  G2       G2_synth_cpu_held_s23.csv  32.0    0.859          0.317     True     0.143     0.623      0.531        0.189     0.821        0.800     True
+  G3         G3_pc_synth_mem_s31.csv  33.0    0.449          0.192     True     0.143     0.242      0.315        0.158     0.695        0.660     True
+  G3         G3_pc_synth_mem_s32.csv  38.0    0.348          0.180     True     0.107     0.149      0.221        0.194     0.682        0.650     True
+  G3         G3_pc_synth_mem_s33.csv  36.0    0.357          0.258     True     0.094     0.159      0.235        0.174     0.760        0.713     True
+ G4x G4x_lidar_mem_schedutil_s41.csv 111.0    0.034          0.380     True     0.030     0.058      0.058        0.305     0.884        0.861     True
+ G4x G4x_lidar_mem_schedutil_s42.csv 112.0    0.057          0.321     True     0.053     0.045      0.051        0.278     0.825        0.793    False
+ G8a        G8a_c_lidar_perf_s51.csv  21.0    0.644          0.230     True     0.591     0.059      0.108        0.059     0.732        0.949    False
+ G8a        G8a_c_lidar_perf_s52.csv  20.0    0.471          0.355     True     0.376     0.095      0.132        0.092     0.860        0.937    False
+ G8a        G8a_c_lidar_perf_s53.csv  18.0    0.702          0.331     True     0.360     0.072      0.094        0.100     0.835        0.890    False
+ G8a        G8a_c_lidar_perf_s54.csv  19.0    0.693          0.323     True     0.535     0.054      0.050        0.075     0.825        0.953    False
+ G8a        G8a_c_lidar_perf_s55.csv  16.0    0.974          0.398     True     0.416     0.417      0.255        0.085     0.900        0.939     True
+ G8b          G8b_pc_c_lidar_s61.csv  12.0    0.397          0.283     True     0.066     0.142      0.216        0.105     0.787        0.768     True
+ G8b          G8b_pc_c_lidar_s62.csv  14.0    0.049          0.314     True     0.089     0.071      0.049        0.181     0.814        0.769    False
+ G8b          G8b_pc_c_lidar_s63.csv  13.0    0.251          0.367     True     0.139     0.080      0.080        0.164     0.870        0.886    False
+
+===== pass counts (D = p85)
+     H1_pass      H3_pass      G5_cc_beats_gbm      G6_cc_beats_naive_ece      G6_cc_beats_naive_auroc     
+         sum size     sum size             sum size                   sum size                     sum size
+cond                                                                                                       
+G1         5    5       5    5               5    5                     0    5                       5    5
+G2         3    3       3    3               3    3                     3    3                       3    3
+G3         3    3       3    3               3    3                     3    3                       3    3
+G4x        2    2       1    2               1    2                     2    2                       2    2
+G8a        5    5       1    5               0    5                     0    5                       0    5
+G8b        3    3       1    3               1    3                     3    3                       2    3
+
+G5 (CC beats GBM on K3 ECE across G1-G3): 11/11  (pass rule >= 8/11)
+
+===== secondary deadlines (pass counts)
+          H1_pass      H3_pass     
+              sum size     sum size
+cond q                             
+G1   0.75       5    5       5    5
+     0.95       5    5       5    5
+G2   0.75       3    3       3    3
+     0.95       3    3       3    3
+G3   0.75       3    3       3    3
+     0.95       3    3       1    3
+G4x  0.75       2    2       1    2
+     0.95       2    2       1    2
+G8a  0.75       5    5       1    5
+     0.95       5    5       0    5
+G8b  0.75       3    3       3    3
+     0.95       2    3       0    3
+
+===== mean e2e / miss by K (D = p85)
+         mean_e2e  mean_n1  miss_rate
+cond K                               
+G1   K0    81.355   26.767      0.058
+     K1    83.948   26.922      0.159
+     K2    87.223   27.299      0.324
+     K3   100.226   28.830      0.900
+G2   K0    25.873    2.383      0.063
+     K1    27.388    2.454      0.158
+     K2    29.626    2.614      0.297
+     K3    40.134    2.693      0.883
+G3   K0    23.692    2.161      0.013
+     K1    29.045    2.567      0.150
+     K2    31.978    2.986      0.270
+     K3    34.396    3.283      0.385
+G4x  K0   110.641   44.570      0.386
+     K1    81.942   26.423      0.004
+     K2    84.616   26.779      0.018
+     K3    96.448   27.988      0.046
+G8a  K0    15.135    0.895      0.011
+     K1    16.513    1.007      0.078
+     K2    20.127    1.139      0.390
+     K3    25.881    1.133      0.697
+G8b  K0     8.491    0.573      0.002
+     K1    10.227    0.745      0.131
+     K2    10.947    0.853      0.169
+     K3    12.149    1.012      0.232

@@ -1,0 +1,11 @@
+=== Addendum N freeze Sun Nov 15 20:54:07 IST 2026 (Pi chain still running; no Pi confirmatory CSV pulled or read)
+3bf0d6d8b2cffef7760ed25f5475da70 *n_confirm.py
+55be3d9b62e39945713ade199b1094a8 *control_study.py
+2420c3839c51f0102841a8664b450a27 *wh_methods.py
+fde10fdddeaffa228936b2436a7f33b6 *m_confirm.py
+8ec4161befc49ec6944110ca4be2a84f *l_confirm.py
+fbba20ce3b971801b5876aff051a9743 *kpf_methods.py
+a6178e31ea2b7156da572602800dd603 *baselines_j.py
+31403c5bcbb1bcef841e8544af7da40c *h_confirm.py
+bf4e09f98a203ff6bae573c6b48b1658 *../PROTOCOL_GENERALIZATION.md
+RESULT (Sun Nov 15 21:50:07 IST 2026): frozen code unchanged. N1 6/6, N2 6/6, N3 6/6, N4 6/6, N5 6/6: all PASS. Sweep (24 settings, mean J): KPF+BG < none in 20, < Toba+BG in 24, < always-fallback in 19; losses reported (slow drone plant vs none; good-fallback fast plant vs always-fallback).

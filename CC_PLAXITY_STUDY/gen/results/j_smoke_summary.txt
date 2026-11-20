@@ -1,0 +1,13 @@
+    GBDT chosen: {0: {'learning_rate': 0.05, 'max_iter': 100, 'max_leaf_nodes': 15, 'min_samples_leaf': 20, 'l2_regularization': 1.0}, 1: {'learning_rate': 0.05, 'max_iter': 100, 'max_leaf_nodes': 15, 'min_samples_leaf': 20, 'l2_regularization': 1.0}, 2: {'learning_rate': 0.05, 'max_iter': 100, 'max_leaf_nodes': 15, 'min_samples_leaf': 20, 'l2_regularization': 1.0}, 3: {'learning_rate': 0.05, 'max_iter': 100, 'max_leaf_nodes': 15, 'min_samples_leaf': 20, 'l2_regularization': 1.0}}
+--- pilot seed 131 (secondary): n_val=2494 D=26.0 miss=0.216
+    GBDT chosen: {0: {'learning_rate': 0.05, 'max_iter': 100, 'max_leaf_nodes': 15, 'min_samples_leaf': 20, 'l2_regularization': 1.0}, 1: {'learning_rate': 0.05, 'max_iter': 100, 'max_leaf_nodes': 15, 'min_samples_leaf': 20, 'l2_regularization': 1.0}, 2: {'learning_rate': 0.05, 'max_iter': 100, 'max_leaf_nodes': 15, 'min_samples_leaf': 20, 'l2_regularization': 1.0}, 3: {'learning_rate': 0.05, 'max_iter': 100, 'max_leaf_nodes': 15, 'min_samples_leaf': 20, 'l2_regularization': 1.0}}
+--- pilot seed 132 (secondary): n_val=2455 D=25.0 miss=0.294
+
+means by primary/method:
+                   auc_act  auc_act_switch  auc_act_K3  ece_act_K3  lead_ms_fpr10  bg_fpr  bg_worst100  us_per_frame_py
+primary method                                                                                                         
+False   Budget       0.607           0.687       0.603       0.288          1.223   0.438        0.090           16.235
+        GBDT-all     0.816           0.840       0.573       0.161          6.442   0.355        0.105           31.239
+        KPF+stack    0.825           0.844       0.587       0.132          6.195   0.340        0.110           17.975
+        LR-all       0.825           0.857       0.568       0.211          6.646   0.333        0.120           22.235
+        Toba-eq      0.595           0.686       0.595       0.289          1.224   0.529        0.085              NaN

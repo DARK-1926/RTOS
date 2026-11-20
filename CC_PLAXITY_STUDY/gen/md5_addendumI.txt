@@ -1,0 +1,21 @@
+=== Addendum I freeze Sun Nov  8 10:37:48 IST 2026
+2322a68e305011bb8b7b702b126f70aa *i_confirm.py
+fbba20ce3b971801b5876aff051a9743 *kpf_methods.py
+31403c5bcbb1bcef841e8544af7da40c *h_confirm.py
+b6e2936dba387a88efd4c84ea13c0d51 *g_confirm.py
+68aff362ada5aeef2d7a3459890a50f9 *kpt_methods.py
+5cbd020da269736a518000b2b0d90d18 *kp_methods.py
+b8321947aa43a07331fac97d975a34d1 *g13_analysis.py
+d9d64f5010e23e9f1fb664a97ae15eef *sweep_analysis.py
+98ccfa0f16c87082a0e75b372277e2ed *../ros2/h_chain.sh
+9cecc58e33607735cd2639089f1ba873 *../ros2/run_vo.sh
+b94aa6ba77581a6ab2fcc0f8e619b05c *../ros2/vo_all.sh
+100821c383c1d2579bc7917074d7b81b *../ros2/run_g14.sh
+e44bb6146aaae1a6f8dbad412a8555ae *../ros2/g14_all.sh
+52f4e10dc69ac62d94107ec029e226b1 *../ros2/cc_lidar_ros/src/vo_ros_tm.cpp
+d6c9bfb1336a1809b9a85bd549f6db7d *../ros2/cc_lidar_ros/src/lidar_ros_tm.cpp
+e9717495420bf74bfc63555416d50495 *../PROTOCOL_GENERALIZATION.md
+NOTE (Sun Nov  8 10:38:07 IST 2026): h/vo_182 on board held only empty files from the stopped Part 2 (no frames recorded); discarded by h_chain before the Addendum I run of seed 182.
+RESULT (Sun Nov  8 12:14:35 IST 2026): all 6 seeds complete (3001-line CSVs, rc=0, no crash during Addendum I); 12 CSVs md5-verified vs board (md5_I_data.txt).
+Frozen scripts unchanged at analysis time. Outcome: I1 PASS 5/6, I2 PASS 6/6, I3 PASS 3/3, I4 FAIL 3/6 (rule >=5/6), I5 PASS 6/6, I6 PASS 6/6, I7 PASS 6/6.
+I4 (KPF better K3 calibration than KP) did NOT replicate; reported as a negative result. No re-analysis or rule change.

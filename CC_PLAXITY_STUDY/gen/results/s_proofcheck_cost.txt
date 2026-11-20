@@ -1,0 +1,46 @@
+K=2 m=1 L=1 T=13 seq=   67108864 violations=0 worst m*F/((K-1)U)=1.000
+K=2 m=1 L=2 T=10 seq= 1073741824 violations=0 worst m*F/((K-1)U)=5.000
+K=2 m=1 L=3 T= 8 seq=  429981696 violations=0 worst m*F/((K-1)U)=4.000
+K=3 m=1 L=1 T=13 seq=   67108864 violations=0 worst m*F/((K-1)U)=1.000
+K=3 m=1 L=2 T=10 seq= 1073741824 violations=0 worst m*F/((K-1)U)=2.500
+K=3 m=1 L=3 T= 8 seq=  429981696 violations=0 worst m*F/((K-1)U)=2.500
+K=3 m=2 L=1 T=13 seq=   67108864 violations=0 worst m*F/((K-1)U)=0.500
+K=3 m=2 L=2 T=10 seq= 1073741824 violations=0 worst m*F/((K-1)U)=1.000
+K=3 m=2 L=3 T= 8 seq=  429981696 violations=0 worst m*F/((K-1)U)=2.000
+K=4 m=1 L=1 T=13 seq=   67108864 violations=0 worst m*F/((K-1)U)=1.000
+K=4 m=1 L=2 T=10 seq= 1073741824 violations=0 worst m*F/((K-1)U)=2.000
+K=4 m=1 L=3 T= 8 seq=  429981696 violations=0 worst m*F/((K-1)U)=1.667
+K=4 m=2 L=1 T=13 seq=   67108864 violations=0 worst m*F/((K-1)U)=0.667
+K=4 m=2 L=2 T=10 seq= 1073741824 violations=0 worst m*F/((K-1)U)=0.667
+K=4 m=2 L=3 T= 8 seq=  429981696 violations=0 worst m*F/((K-1)U)=2.000
+K=4 m=3 L=1 T=13 seq=   67108864 violations=0 worst m*F/((K-1)U)=0.333
+K=4 m=3 L=2 T=10 seq= 1073741824 violations=0 worst m*F/((K-1)U)=0.500
+K=4 m=3 L=3 T= 8 seq=  429981696 violations=0 worst m*F/((K-1)U)=1.000
+K=5 m=1 L=1 T=13 seq=   67108864 violations=0 worst m*F/((K-1)U)=1.000
+K=5 m=1 L=2 T=10 seq= 1073741824 violations=0 worst m*F/((K-1)U)=1.500
+K=5 m=1 L=3 T= 8 seq=  429981696 violations=0 worst m*F/((K-1)U)=1.500
+K=5 m=2 L=1 T=13 seq=   67108864 violations=0 worst m*F/((K-1)U)=0.750
+K=5 m=2 L=2 T=10 seq= 1073741824 violations=0 worst m*F/((K-1)U)=1.000
+K=5 m=2 L=3 T= 8 seq=  429981696 violations=0 worst m*F/((K-1)U)=1.500
+K=5 m=3 L=1 T=13 seq=   67108864 violations=0 worst m*F/((K-1)U)=0.500
+K=5 m=3 L=2 T=10 seq= 1073741824 violations=0 worst m*F/((K-1)U)=0.500
+K=5 m=3 L=3 T= 8 seq=  429981696 violations=0 worst m*F/((K-1)U)=0.750
+K=5 m=4 L=1 T=13 seq=   67108864 violations=0 worst m*F/((K-1)U)=0.250
+K=5 m=4 L=2 T=10 seq= 1073741824 violations=0 worst m*F/((K-1)U)=0.333
+K=5 m=4 L=3 T= 8 seq=  429981696 violations=0 worst m*F/((K-1)U)=0.500
+K=6 m=1 L=1 T=13 seq=   67108864 violations=0 worst m*F/((K-1)U)=1.000
+K=6 m=1 L=2 T= 8 seq=   16777216 violations=0 worst m*F/((K-1)U)=1.200
+K=6 m=1 L=3 T= 8 seq=  429981696 violations=0 worst m*F/((K-1)U)=1.200
+K=6 m=2 L=1 T=13 seq=   67108864 violations=0 worst m*F/((K-1)U)=0.800
+K=6 m=2 L=2 T= 8 seq=   16777216 violations=0 worst m*F/((K-1)U)=0.800
+K=6 m=2 L=3 T= 8 seq=  429981696 violations=0 worst m*F/((K-1)U)=1.200
+K=6 m=3 L=1 T=13 seq=   67108864 violations=0 worst m*F/((K-1)U)=0.600
+K=6 m=3 L=2 T= 8 seq=   16777216 violations=0 worst m*F/((K-1)U)=0.600
+K=6 m=3 L=3 T= 8 seq=  429981696 violations=0 worst m*F/((K-1)U)=0.600
+K=6 m=4 L=1 T=13 seq=   67108864 violations=0 worst m*F/((K-1)U)=0.400
+K=6 m=4 L=2 T= 8 seq=   16777216 violations=0 worst m*F/((K-1)U)=0.400
+K=6 m=4 L=3 T= 8 seq=  429981696 violations=0 worst m*F/((K-1)U)=0.533
+K=6 m=5 L=1 T=13 seq=   67108864 violations=0 worst m*F/((K-1)U)=0.200
+K=6 m=5 L=2 T= 8 seq=   16777216 violations=0 worst m*F/((K-1)U)=0.250
+K=6 m=5 L=3 T= 8 seq=  429981696 violations=0 worst m*F/((K-1)U)=0.333
+ALL CHECKS PASSED

@@ -1,0 +1,11 @@
+Addendum S freeze 2026-11-19 17:51
+55657d5da632974b58aef337c8a831f9 *s_confirm.py
+989d68197a8aacdc5e0c69c1948eb723 *p_confirm.py
+ab2c0ed36cdbd3ff8aede4cdd5a205e2 *s_protocol_text.md
+ad06fe823d5f4b2857b31c8516044f1a *../ros2/uq/run_cl_uq.sh
+788b3f37210503d72abb0cc5587ccff1 *../ros2/uq/uq_cl_phase.sh
+4d31cb4c8b41680a071d53c5edf478fa *../ros2/uq/uq_cl_driver.sh
+ff6d190090914b55be8f387d427ce1ef *../ros2/uq/uq_s_driver.sh
+NOTE 2026-11-19 21:38: UNO Q USB dropped and the board rebooted after seed 264 calibration finished (phase_cal_1500.done present); export failed on the partial pull. Driver restarted for seeds 264-267 only; it re-pulls and md5-checks the calibration files. No rule or code change.
+NOTE 2026-11-19 21:39: cl_s264_calib_random.csv is empty on the board (written but not flushed before the reboot; its log shows rc=0). The whole seed-264 calibration is repeated from scratch; the lost directory is kept as p/s264_lost_by_reboot and data/S/lost_s264, never analysed.
+NOTE: uq_cl_phase.sh now runs sync before touching the phase flag (durability only); md5 c1490292f93afe980cdac0fbbe1c3647; in effect from the seed-264 val phases (seed-264 calibration rerun used the previous version)

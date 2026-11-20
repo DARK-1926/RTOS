@@ -1,0 +1,10 @@
+=== Addendum J freeze Sun Nov  8 14:10:08 IST 2026 (after code-only smoke on pilot 131-132; no code change after smoke)
+ac80af874705f0c231a64f83d2ff775f *j_confirm.py
+a6178e31ea2b7156da572602800dd603 *baselines_j.py
+fbba20ce3b971801b5876aff051a9743 *kpf_methods.py
+31403c5bcbb1bcef841e8544af7da40c *h_confirm.py
+e1ffbd5b48987a3bc81cc42733fdf0d1 *../PROTOCOL_GENERALIZATION.md
+RESULT (Sun Nov  8 14:39:32 IST 2026): frozen code unchanged. J1 PASS 6/6, J2 FAIL 2/6, J3 PASS 6/6, J4 FAIL 4/6, J5 PASS 6/6, J6 PASS 18/18.
+Key negative: plain logistic regression on all features (LR-all) matches or slightly beats KPF+stack on ranking
+(primary mean actionable AUROC 0.893 vs 0.888) and BG-ACI FPR (0.219 vs 0.225). KPF wins on calibration under unseen K3
+(actionable ECE 0.072 vs LR 0.128, GBDT 0.186). Reported as is; no rule change.
