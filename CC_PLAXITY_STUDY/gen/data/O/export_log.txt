@@ -1,0 +1,6 @@
+D=6.0 theta0=0.5989 lam=0.8 toba_thr=[0.8, 0.85, 0.9, 0.9, 0.95, 1.0] n_cal=2600
+ME2E_D=2.9258 ratio=0.5365 n_degr=647 n_undegr=614
+D=6.0 theta0=0.5552 lam=0.9 toba_thr=[0.8, 0.85, 0.9, 0.9, 0.95, 1.0] n_cal=2579
+ME2E_D=3.1167 ratio=0.5589 n_degr=606 n_undegr=655
+D=7.0 theta0=0.5416 lam=0.8 toba_thr=[0.8, 0.85, 0.9, 0.9, 0.95, 1.0] n_cal=2670
+ME2E_D=3.0332 ratio=0.5355 n_degr=688 n_undegr=662

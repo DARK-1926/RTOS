@@ -1,0 +1,3 @@
+cal 221 done Sun Nov 15 10:20:26 PM IST 2026
+random p = 0.5860
+val 221 done Sun Nov 15 10:51:58 PM IST 2026
