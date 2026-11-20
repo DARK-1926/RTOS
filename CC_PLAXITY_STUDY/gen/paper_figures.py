@@ -1,10 +1,10 @@
-"""Figures for the manuscript (vector PDF, column width). Run from CC_PLAXITY_STUDY/gen: python paper_figures.py -> PAPER/tecs/figs/"""
+"""Figures for the manuscript (vector PDF, column width). Run from CC_PLAXITY_STUDY/gen: python paper_figures.py -> PAPER/source/figs/"""
 import numpy as np, pandas as pd, matplotlib, glob
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from o_confirm import params
 import os
-OUT = os.environ.get("FIG_OUT", "../../PAPER/tecs/figs/")
+OUT = os.environ.get("FIG_OUT", "../../PAPER/source/figs/")
 INK, MUTE, GRID = "#1f2328", "#6b7280", "#e5e7eb"
 C = {"Toba-eq": "#d9622b", "KP": "#2f6fb5", "EWMA-CP": "#1a9e77", "LR-iso": "#8a63b8"}
 plt.rcParams.update({"font.size": 7.5, "font.family": "serif", "axes.spines.top": False, "axes.spines.right": False,

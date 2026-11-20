@@ -30,3 +30,6 @@ __pycache__/
 *.blg
 *.aux
 /PAPER/paper_figures.py
+/PAPER/tecs/
+/PAPER/CC_PLAXITY_paper_TECS*
+/PAPER/source/main.pdf
