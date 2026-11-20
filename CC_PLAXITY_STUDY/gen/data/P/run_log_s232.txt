@@ -1,0 +1,5 @@
+cal 232 1500 done Tue Nov  3 07:11:37 PM UTC 2026
+heavy random p = 0.6088
+val 232 heavy done Tue Nov  3 07:39:20 PM UTC 2026
+light random p = 0.0654
+val 232 light done Tue Nov  3 08:07:15 PM UTC 2026

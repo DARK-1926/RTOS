@@ -1,0 +1,6 @@
+q=0.85 D=27.0 theta0=0.4506 ME2E_D=12.6412 ratio=0.5592 n_cal=2574
+q=m1.6 D=43.0 theta0=1.0000 ME2E_D=12.6412 ratio=0.5592 n_cal=2574
+q=0.85 D=27.0 theta0=0.3534 ME2E_D=12.7593 ratio=0.5569 n_cal=2633
+q=m1.6 D=43.0 theta0=1.0000 ME2E_D=12.7593 ratio=0.5569 n_cal=2633
+q=0.85 D=27.0 theta0=0.3881 ME2E_D=12.5347 ratio=0.5542 n_cal=2649
+q=m1.6 D=43.0 theta0=1.0000 ME2E_D=12.5347 ratio=0.5542 n_cal=2649
